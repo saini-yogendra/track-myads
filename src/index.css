@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Mona Sans */
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('https://github.com/github/mona-sans/blob/main/dist/Mona-Sans.woff2?raw=true') format('woff2 supports variations'),
+    url('https://github.com/github/mona-sans/blob/main/dist/Mona-Sans.woff2?raw=true') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+@layer base {
+  body {
+    font-family: 'Mona Sans', 'Inter', sans-serif;
+    @apply antialiased text-slate-800 bg-white;
+  }
+}
