@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <div className="relative overflow-hidden bg-white pt-32 pb-20 lg:pt-40 lg:pb-28">
+        <div className="relative overflow-hidden bg-white pt-32 pb-12 lg:pt-40 lg:pb-16">
             {/* Background decorative shapes */}
             <div className="absolute top-20 right-10 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
             <div className="absolute top-40 left-10 w-72 h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>

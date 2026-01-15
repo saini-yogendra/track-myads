@@ -64,7 +64,7 @@ const Features = () => {
     ];
 
     return (
-        <div className="py-24 bg-white">
+        <div className="py-16 bg-white">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <span className="text-primary font-bold tracking-wider uppercase text-sm mb-4 block">Key Features</span>
