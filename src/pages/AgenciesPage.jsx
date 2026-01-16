@@ -267,17 +267,11 @@ const AgenciesPage = () => {
                     <div className="bg-white rounded-[2rem] shadow-2xl border border-slate-100 p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto relative overflow-hidden">
                         <div className="relative z-10 text-center lg:text-left">
                             <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">
-                                Start your 14 days free trial
+                                Try with 10 days free trial
                             </h2>
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
-                                    <CheckCircle className="w-5 h-5 text-green-500" /> Trusted by 850+ Companies
-                                </li>
-                                <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
                                     <CheckCircle className="w-5 h-5 text-green-500" /> No credit card required
-                                </li>
-                                <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
-                                    <CheckCircle className="w-5 h-5 text-green-500" /> Support 24/7
                                 </li>
                             </ul>
                         </div>

@@ -1,10 +1,7 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle, Check, HelpCircle, Building2, Rocket, Zap, Shield, Users, Globe } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Check, Rocket, Zap, Shield, Users, Globe } from 'lucide-react';
 
-const PricingPage = () => {
-
+const PricingSection = () => {
 
     const startupPlans = [
         {
@@ -75,15 +72,15 @@ const PricingPage = () => {
     ];
 
     return (
-        <div className="bg-white min-h-screen font-body">
+        <div id="pricing" className="bg-slate-50">
 
-            {/* Hero Section */}
-            <section className="pt-32 pb-20 lg:pt-40 lg:pb-16 text-center">
+            {/* Header Section */}
+            <section className="py-20 text-center">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="inline-block bg-blue-50 text-blue-800 px-4 py-2 rounded-full text-sm font-bold mb-6">
                         Try with <span className="text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-md mx-1">10 days</span> free trial
                     </div>
-                    <h1 className="text-4xl lg:text-[56px] font-bold text-slate-900 leading-tight mb-4 font-display">
+                    <h1 className="text-4xl lg:text-[48px] font-bold text-slate-900 leading-tight mb-4 font-display">
                         Pricing & Plans
                     </h1>
 
@@ -94,8 +91,6 @@ const PricingPage = () => {
                         <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">Crozdesk <br /><span className="font-normal text-[10px]">Quality Choice</span></div>
                         <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">OfferVault <br /><span className="font-normal text-[10px]">Top Platform</span></div>
                     </div>
-
-
                 </div>
             </section>
 
@@ -128,9 +123,9 @@ const PricingPage = () => {
                                         </div>
                                     ))}
                                 </div>
-                                <Link to="/contact" className={`w-full py-4 rounded-xl font-bold text-center transition-all ${plan.dark ? 'bg-[#0046af] hover:bg-[#003690] text-white' : 'bg-slate-100 hover:bg-slate-200 text-slate-900'}`}>
+                                <a href="#contact" className={`w-full py-4 rounded-xl font-bold text-center transition-all ${plan.dark ? 'bg-[#0046af] hover:bg-[#003690] text-white' : 'bg-slate-100 hover:bg-slate-200 text-slate-900'}`}>
                                     {plan.buttonText}
-                                </Link>
+                                </a>
                             </div>
                         ))}
                     </div>
@@ -139,7 +134,7 @@ const PricingPage = () => {
             </section>
 
             {/* Key Features List */}
-            <section className="py-20 bg-slate-50 border-t border-slate-200">
+            <section className="py-20 bg-white border-t border-slate-200">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="text-2xl font-bold text-slate-900 font-display">All Plans Include Key Features</h2>
@@ -152,13 +147,13 @@ const PricingPage = () => {
                                 <p className="text-sm text-slate-600 mt-1">Our team is always available to help everyday.</p>
                             </div>
                         </div>
-                        <div className="flex gap-4">
+                        {/* <div className="flex gap-4">
                             <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Shield className="w-6 h-6 text-red-600" /></div>
-                            {/* <div>
+                            <div>
                                 <h3 className="font-bold text-slate-900">Fraud Detection (Basic)</h3>
                                 <p className="text-sm text-slate-600 mt-1">Stay safe with our built-in basic security tools.</p>
-                            </div> */}
-                        </div>
+                            </div>
+                        </div> */}
                         <div className="flex gap-4">
                             <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Globe className="w-6 h-6 text-green-600" /></div>
                             <div>
@@ -199,4 +194,4 @@ const HeadphonesIcon = ({ className }) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
 );
 
-export default PricingPage;
+export default PricingSection;

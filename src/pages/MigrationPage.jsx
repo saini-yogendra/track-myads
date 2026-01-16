@@ -174,17 +174,16 @@ const MigrationPage = () => {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
 
                         <div className="relative z-10 text-center md:text-left">
-                            <div className="flex items-center gap-2 mb-4 justify-center md:justify-start opacity-80">
+                            <div className="flex items-center gap-2 mb-4 justify-center md:justify-start opacity-80 text-blue-200">
                                 <ShieldCheck className="w-5 h-5" />
                                 <span className="font-bold tracking-wider uppercase text-sm">Secure Migration</span>
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Start your 14 days free trial</h2>
-
-                            <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Support 24/7</span>
-                            </div>
+                            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 font-display">Try with 10 days free trial</h2>
+                            <ul className="space-y-3">
+                                <li className="flex items-center gap-3 text-blue-100 justify-center lg:justify-start">
+                                    <CheckCircle className="w-5 h-5 text-green-400" /> No credit card required
+                                </li>
+                            </ul>
                         </div>
 
                         <div className="relative z-10">

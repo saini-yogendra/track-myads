@@ -24,7 +24,7 @@ const Hero = () => {
                         {/* Top Badge */}
                         <div className="inline-flex items-center px-4 py-2 rounded-full bg-yellow-50 border border-yellow-200 text-sm font-semibold text-orange-800 mb-8 animate-fade-in-up">
                             <span className="flex h-2 w-2 rounded-full bg-orange-500 mr-3 animate-pulse"></span>
-                            Track MyAds - Unify Your Affiliate Activities <Link to="/pricing" className="ml-2 text-primary hover:underline">Check Pricing →</Link>
+                            Track MyAds – Track Smarter. Grow Faster. <Link to="/pricing" className="ml-2 text-primary hover:underline">Check Pricing →</Link>
                         </div>
 
                         {/* Main Heading */}
@@ -40,7 +40,7 @@ const Hero = () => {
 
                         {/* Subtitle */}
                         <p className="text-xl text-slate-600 mb-10 leading-relaxed font-light max-w-2xl mx-auto lg:mx-0">
-                            Campaign Tracking Software designed to help affiliates, advertisers, and affiliate networks track and optimize their campaigns with precision.
+                            Smart campaign tracking software that enables affiliates, advertisers, and networks to track, analyze, and optimize campaigns effortlessly.
                         </p>
 
                         {/* CTA Buttons */}
@@ -54,10 +54,7 @@ const Hero = () => {
                         </div>
 
                         {/* Trust Badge */}
-                        <div className="flex items-center justify-center lg:justify-start gap-3 text-slate-600">
-                            <Sparkles className="w-5 h-5 text-orange-500" />
-                            <span className="font-semibold">Trusted by 850+ companies</span>
-                        </div>
+
                     </motion.div>
 
                     {/* Right Visual */}

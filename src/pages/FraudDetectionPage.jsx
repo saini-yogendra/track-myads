@@ -358,11 +358,9 @@ const FraudDetectionPage = () => {
             <section className="py-20 bg-gradient-to-br from-[#272742] to-[#3a3a5e] text-white">
                 <div className="container mx-auto px-4 text-center">
                     <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-sm rounded-3xl p-12 border border-white/10">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Start your 14 days free trial</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Try with 10 days free trial</h2>
                         <div className="flex flex-wrap justify-center gap-6 mb-10 text-blue-200 text-sm font-semibold tracking-wide uppercase">
-                            <span className="flex items-center gap-2"><CheckCircle size={16} /> Support 24/7</span>
                             <span className="flex items-center gap-2"><CheckCircle size={16} /> No Credit Card Required</span>
-                            <span className="flex items-center gap-2"><CheckCircle size={16} /> Trusted by 850+ Companies</span>
                         </div>
                         <Link to="/contact" className="inline-block bg-white text-[#272742] hover:bg-slate-100 px-10 py-4 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105 active:scale-95">
                             Request Free Trial

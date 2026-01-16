@@ -175,11 +175,10 @@ const IntegrationPage = () => {
                                 <Layers className="w-5 h-5" />
                                 <span className="font-bold tracking-wider uppercase text-sm">Unified Platform</span>
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Start your 14 days free trial</h2>
+                            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Try with 10 days free trial</h2>
 
                             <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Support 24/7</span>
+                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

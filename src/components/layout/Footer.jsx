@@ -7,30 +7,31 @@ const Footer = () => {
         Company: [
             { name: 'About', href: '/company/about' },
             { name: 'Pricing', href: '/pricing' },
-            { name: 'Blogs & Journals', href: '/resources/blog' },
-            { name: 'Customer Stories', href: '/resources/case-studies' },
-            { name: 'Careers', href: '/company/careers' },
-            { name: 'Newsroom', href: '/resources/newsroom' }
+            { name: 'Contact', href: '/contact' },
+            // { name: 'Blogs & Journals', href: '/resources/blog' },
+            // { name: 'Customer Stories', href: '/resources/case-studies' },
+            // { name: 'Careers', href: '/company/careers' },
+            // { name: 'Newsroom', href: '/resources/newsroom' }
         ],
-        Services: [
-            { name: 'OnBoarding', href: '/services/onboarding' },
-            { name: 'Customer Support', href: '/services/support' },
-            { name: 'Migration', href: '/services/migration' },
-            { name: 'User Guide', href: '/resources/guide' },
-            { name: 'Integration', href: '/services/integration' }
-        ],
-        'Compare Us': [
-            { name: 'Affise vs Track MyAds', href: '/compare/affise' },
-            { name: 'Cake vs Track MyAds', href: '/compare/cake' },
-            { name: 'HasOffers vs Track MyAds', href: '/compare/hasoffers' },
-            { name: 'Voluum vs Track MyAds', href: '/compare/voluum' },
-            { name: 'Everflow vs Track MyAds', href: '/compare/everflow' }
-        ],
-        Product: [
-            { name: 'Affiliate Tracking', href: '/features/affiliate-tracking' },
-            { name: 'Automated Marketing', href: '/features/automation' },
-            { name: 'White Label', href: '/features/white-label' }
-        ]
+        // Services: [
+        //     { name: 'OnBoarding', href: '/services/onboarding' },
+        //     { name: 'Customer Support', href: '/services/support' },
+        //     { name: 'Migration', href: '/services/migration' },
+        //     { name: 'User Guide', href: '/resources/guide' },
+        //     { name: 'Integration', href: '/services/integration' }
+        // ],
+        // 'Compare Us': [
+        //     { name: 'Affise vs Track MyAds', href: '/compare/affise' },
+        //     { name: 'Cake vs Track MyAds', href: '/compare/cake' },
+        //     { name: 'HasOffers vs Track MyAds', href: '/compare/hasoffers' },
+        //     { name: 'Voluum vs Track MyAds', href: '/compare/voluum' },
+        //     { name: 'Everflow vs Track MyAds', href: '/compare/everflow' }
+        // ],
+        // Product: [
+        //     { name: 'Affiliate Tracking', href: '/features/affiliate-tracking' },
+        //     { name: 'Automated Marketing', href: '/features/automation' },
+        //     { name: 'White Label', href: '/features/white-label' }
+        // ]
     };
 
     return (
@@ -39,10 +40,10 @@ const Footer = () => {
             <div className="bg-gradient-to-r from-[#1a2b4b] to-[#2d4a7c] py-16">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                        Start your 14 days free trial
+                        Try with 10 days free trial
                     </h2>
                     <p className="text-blue-100 mb-8 text-lg">
-                        Trusted by 850+ Companies | No credit card required | Support 24/7
+                        Powering performance marketing for hundreds of businesses worldwide. Start free—no credit card required. Cancel anytime.
                     </p>
                     <Link
                         to="/contact"
@@ -63,11 +64,11 @@ const Footer = () => {
                             <div className="text-2xl font-bold">Track MyAds</div>
                         </Link>
                         <p className="text-slate-400 text-sm mb-6 leading-relaxed">
-                            Award-winning performance marketing platform for affiliate networks and advertisers.
+                            performance marketing platform for affiliate networks and advertisers.
                         </p>
 
                         {/* Social Icons */}
-                        <div className="flex gap-3">
+                        {/* <div className="flex gap-3">
                             <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-slate-700 rounded-full flex items-center justify-center transition-colors">
                                 <Facebook size={18} />
                             </a>
@@ -83,7 +84,7 @@ const Footer = () => {
                             <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-slate-700 rounded-full flex items-center justify-center transition-colors">
                                 <Instagram size={18} />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Link Columns */}
@@ -110,7 +111,7 @@ const Footer = () => {
                 </div>
 
                 {/* Trust Badges */}
-                <div className="border-t border-slate-800 pt-8 mb-8">
+                {/* <div className="border-t border-slate-800 pt-8 mb-8">
                     <div className="flex flex-wrap justify-center lg:justify-end gap-6 items-center">
                         <div className="flex items-center gap-2 text-slate-400 text-sm">
                             <Shield size={20} />
@@ -125,7 +126,7 @@ const Footer = () => {
                             <span>ISO 27001</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-800 pt-8">

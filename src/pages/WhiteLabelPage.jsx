@@ -234,18 +234,10 @@ const WhiteLabelPage = () => {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-slate-50 rounded-full blur-3xl -mr-16 -mt-16 z-0"></div>
 
                         <div className="relative z-10 text-center lg:text-left">
-                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">
-                                Start your 14 days free trial
-                            </h2>
+                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
-                                    <CheckCircle className="w-5 h-5 text-green-500" /> Trusted by 850+ Companies
-                                </li>
-                                <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
                                     <CheckCircle className="w-5 h-5 text-green-500" /> No credit card required
-                                </li>
-                                <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
-                                    <CheckCircle className="w-5 h-5 text-green-500" /> Support 24/7
                                 </li>
                             </ul>
                         </div>

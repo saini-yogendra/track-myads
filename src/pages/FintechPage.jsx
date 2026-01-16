@@ -298,7 +298,6 @@ const FintechPage = () => {
                             </Link>
 
                             <div className="flex flex-wrap justify-center gap-8 mt-10 text-blue-200 font-medium">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Trusted by 850+ Companies</span>
                                 <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> SSL Encrypted</span>
                                 <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> 99.99% Uptime</span>
                             </div>

@@ -236,8 +236,7 @@ const CustomerSupportPage = () => {
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to Experience Exceptional Support?</h2>
 
                             <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> Support 24/7</span>
+                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

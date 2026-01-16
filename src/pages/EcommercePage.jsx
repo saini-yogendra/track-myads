@@ -266,7 +266,7 @@ const EcommercePage = () => {
                     <div className="text-center max-w-3xl mx-auto">
                         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Maximize Your eCommerce Potential</h2>
                         <p className="text-slate-500 text-lg mb-8">
-                            Start your 14 days free trial. No credit card required.
+                            Try with 10 days free trial. No credit card required.
                         </p>
                         <Link to="/contact" className="inline-block bg-[#111827] text-white hover:bg-black px-12 py-5 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105">
                             Request Free Trial

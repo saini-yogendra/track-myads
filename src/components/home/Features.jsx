@@ -15,56 +15,44 @@ const Features = () => {
     const features = [
         {
             icon: <Globe className="w-6 h-6 text-blue-600" />,
-            title: "Instant Migration",
-            description: "Easily migrate your campaigns from other platforms with our one-click migration tools.",
+            title: "Seamless Campaign Migration",
+            description: "Move your campaigns effortlessly from other platforms using fast, one-click migration tools.",
             bg: "bg-blue-50"
         },
         {
-            icon: <Puzzle className="w-6 h-6 text-purple-600" />,
-            title: "Integration",
-            description: "Seamlessly integrate with hundreds of third-party tools, payment gateways, and CRMs.",
-            bg: "bg-purple-50"
-        },
-        {
             icon: <Zap className="w-6 h-6 text-yellow-600" />,
-            title: "Automation",
-            description: "Save time with powerful automation rules for payouts, capping, and notifications.",
+            title: "Powerful Automation",
+            description: "Automate payouts, caps, and alerts with smart rules that save time and reduce manual work.",
             bg: "bg-yellow-50"
         },
         {
             icon: <UserPlus className="w-6 h-6 text-green-600" />,
-            title: "On-Boarding",
-            description: "Get started quickly with our dedicated onboarding team and comprehensive training resources.",
+            title: "Fast & Guided Onboarding",
+            description: "Launch quickly with dedicated onboarding support and step-by-step training resources.",
             bg: "bg-green-50"
         },
         {
             icon: <Headphones className="w-6 h-6 text-red-600" />,
-            title: "Customer Support",
-            description: "24/7 expert support available via chat, email, and call to help you succeed.",
+            title: "Always-On Customer Support",
+            description: "Get 24/7 expert assistance via chat, email, or phone whenever you need help.",
             bg: "bg-red-50"
         },
         {
-            icon: <ShieldCheck className="w-6 h-6 text-indigo-600" />,
-            title: "Anti-Fraud",
-            description: "Protect your budget with advanced fraud detection and prevention algorithms.",
-            bg: "bg-indigo-50"
+            icon: <Layers className="w-6 h-6 text-purple-600" />,
+            title: "White-Label Branding",
+            description: "Personalize the platform with your own domain, branding, and custom color themes.",
+            bg: "bg-purple-50"
         },
         {
-            icon: <Layers className="w-6 h-6 text-cyan-600" />,
-            title: "White Label",
-            description: "Fully customize the platform with your own branding, domain, and colors.",
-            bg: "bg-cyan-50"
-        },
-        {
-            icon: <Award className="w-6 h-6 text-orange-600" />,
-            title: "Enhanced Capabilities",
-            description: "Access advanced features like smart links, impression tracking, and multi-currency support.",
-            bg: "bg-orange-50"
+            icon: <ShieldCheck className="w-6 h-6 text-teal-600" />,
+            title: "Advanced Feature Set",
+            description: "Unlock powerful tools including smart links, impression tracking, and multi-currency support.",
+            bg: "bg-teal-50"
         }
     ];
 
     return (
-        <div className="py-16 bg-white">
+        <div id="features" className="py-16 bg-white">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <span className="text-primary font-bold tracking-wider uppercase text-sm mb-4 block">Key Features</span>
@@ -76,7 +64,7 @@ const Features = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
                         <div key={index} className="bg-white rounded-2xl p-8 border border-slate-100 hover:border-blue-100 hover:shadow-card transition-all duration-300 group hover:-translate-y-1">
                             <div className={`w-14 h-14 rounded-xl ${feature.bg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>

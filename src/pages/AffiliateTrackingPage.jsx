@@ -299,9 +299,9 @@ const AffiliateTrackingPage = () => {
             {/* CTA Section */}
             <section className="py-20 bg-gradient-to-br from-[#1a2b4b] to-[#2d4a7c] text-white text-center">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Start your 14 days free trial</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Try with 10 days free trial</h2>
                     <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-                        Trusted by 850+ Companies | No credit card required | Support 24/7
+                        No credit card required
                     </p>
                     <Link to="/contact" className="inline-block bg-white text-[#1a2b4b] hover:bg-slate-100 px-10 py-4 rounded-full font-bold text-lg shadow-xl transition-all">
                         Request Free Trial

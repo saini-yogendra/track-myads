@@ -17,48 +17,11 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        {
-            name: 'Product & Solutions',
-            dropdown: true,
-            columns: [
-                {
-                    title: "Products",
-                    links: [
-                        { name: 'Affiliate Marketing Tracking Software', href: '/features/affiliate-tracking' },
-                        { name: 'Automated Affiliate Marketing', href: '/features/automation' },
-                        { name: 'White Label Software', href: '/features/white-label' }
-                    ]
-                },
-                {
-                    title: "Solutions",
-                    links: [
-                        { name: 'Affiliate Networks', href: '/solutions/networks' },
-                        { name: 'Agencies', href: '/solutions/agencies' },
-                        { name: 'Fintech Industry', href: '/solutions/fintech' },
-                        { name: 'Ecommerce', href: '/solutions/ecommerce' },
-                        { name: 'Mobile VAS', href: '/solutions/mobile-vas' },
-                        { name: 'Health & Fitness', href: '/solutions/health-fitness' }
-                    ]
-                }
-            ]
-        },
-        {
-            name: 'Services',
-            dropdown: true,
-            columns: [
-                {
-                    title: "Services",
-                    links: [
-                        { name: 'OnBoarding', href: '/services/onboarding' },
-                        { name: 'Customer Support', href: '/services/support' },
-                        { name: 'Migration', href: '/services/migration' },
-                        { name: 'Integration', href: '/services/integration' }
-                    ]
-                }
-            ]
-        },
-        { name: 'Pricing', href: '/pricing' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'About', href: '#about' },
+        { name: 'Solutions', href: '#solutions' },
+        { name: 'Features', href: '#features' },
+        { name: 'Pricing', href: '#pricing' },
+        { name: 'Contact', href: '#contact' },
     ];
 
     return (
@@ -81,12 +44,12 @@ const Navbar = () => {
                                         <span>{link.name}</span>
                                     </button>
                                 ) : (
-                                    <Link
-                                        to={link.href}
+                                    <a
+                                        href={link.href}
                                         className="text-slate-800 hover:text-primary font-medium text-[15px] px-4 py-6 transition-colors duration-200 block"
                                     >
                                         {link.name}
-                                    </Link>
+                                    </a>
                                 )}
 
                                 {/* Dropdown Menu */}
@@ -119,9 +82,9 @@ const Navbar = () => {
                         {/* <Link to="/login" className="text-slate-700 font-semibold hover:text-primary px-4 py-2 transition-colors text-[15px]">
                             Login
                         </Link> */}
-                        <Link to="/contact" className="bg-secondary hover:bg-secondary-light text-white px-6 py-2.5 rounded text-[15px] font-semibold transition-all shadow-lg shadow-blue-900/10 hover:shadow-xl hover:-translate-y-0.5">
+                        <a href="#contact" className="bg-secondary hover:bg-secondary-light text-white px-6 py-2.5 rounded text-[15px] font-semibold transition-all shadow-lg shadow-blue-900/10 hover:shadow-xl hover:-translate-y-0.5">
                             Request Free Trial
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -195,13 +158,13 @@ const Navbar = () => {
                                             </AnimatePresence>
                                         </div>
                                     ) : (
-                                        <Link
-                                            to={link.href}
+                                        <a
+                                            href={link.href}
                                             onClick={() => setIsOpen(false)}
                                             className="block px-3 py-3 text-lg font-medium text-slate-800 hover:text-primary hover:bg-slate-50 rounded-md"
                                         >
                                             {link.name}
-                                        </Link>
+                                        </a>
                                     )}
                                 </div>
                             ))}
@@ -209,9 +172,9 @@ const Navbar = () => {
                                 <Link to="/login" onClick={() => setIsOpen(false)} className="w-full text-center text-slate-700 font-bold py-3 border border-slate-200 rounded hover:border-primary hover:text-primary transition-colors">
                                     Login
                                 </Link>
-                                <Link to="/contact" onClick={() => setIsOpen(false)} className="w-full text-center bg-secondary text-white font-bold py-3.5 rounded shadow-lg">
+                                <a href="#contact" onClick={() => setIsOpen(false)} className="w-full text-center bg-secondary text-white font-bold py-3.5 rounded shadow-lg">
                                     Request Free Trial
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </motion.div>

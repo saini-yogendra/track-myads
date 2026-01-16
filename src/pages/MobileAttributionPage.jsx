@@ -276,11 +276,9 @@ const MobileAttributionPage = () => {
                 <div className="container mx-auto px-4">
                     <div className="bg-slate-100 rounded-[3rem] p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8">
                         <div>
-                            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-display">Start your 14 days free trial</h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
                             <div className="flex flex-wrap gap-6 text-slate-600 font-medium">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-green-500" size={20} /> Trusted by 850+ Companies</span>
                                 <span className="flex items-center gap-2"><CheckCircle className="text-green-500" size={20} /> No credit card required</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-green-500" size={20} /> Support 24/7</span>
                             </div>
                         </div>
                         <Link to="/contact" className="inline-block bg-[#1A1A1A] text-white hover:bg-black px-10 py-4 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105 whitespace-nowrap">

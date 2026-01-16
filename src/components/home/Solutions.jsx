@@ -4,31 +4,37 @@ import { Target, ShoppingBag, Smartphone, BarChart3 } from 'lucide-react';
 const Solutions = () => {
     const solutions = [
         {
-            title: "Campaign Tracking and Optimization Platform",
+            title: "All-in-One Campaign Tracking & Optimization Platform",
             icon: <Target className="w-12 h-12 text-pink-600" />,
-            description: "Boost your affiliate targeting by setting attribution parameters for every touchpoint in the customer journey.",
+            description: "Track every touch. Attribute every conversion with precision parameters.",
             bg: "bg-pink-50",
             iconBg: "bg-pink-100"
         },
         {
-            title: "Ecommerce Offers Management",
+            title: "Take control of your eCommerce growth",
             icon: <ShoppingBag className="w-12 h-12 text-amber-700" />,
-            description: "Elevate your eCommerce game. Efficiently manage your eCommerce marketing efforts with advanced tracking.",
+            description: "Advanced tracking and management tools designed to optimize eCommerce marketing performance.",
             bg: "bg-amber-50",
             iconBg: "bg-amber-100"
         },
-
         {
-            title: "Media Buying Ad Tracking",
+            title: "Built for media-buying affiliates",
             icon: <BarChart3 className="w-12 h-12 text-cyan-600" />,
-            description: "Clear skies for media-buying affiliates! Hyper-targeted campaigns and real-time monitoring for maximum ROI.",
+            description: "Run hyper-targeted campaigns with real-time tracking and performance insights to maximize ROI.",
             bg: "bg-cyan-50",
             iconBg: "bg-cyan-100"
+        },
+        {
+            title: "Real-time analytics",
+            icon: <Smartphone className="w-12 h-12 text-violet-600" />,
+            description: "Unlock instant visibility into what drives your revenue. Real-time analytics reveal market trends and customer behavior as they happen, enabling faster, data-driven campaign optimization.",
+            bg: "bg-violet-50",
+            iconBg: "bg-violet-100"
         }
     ];
 
     return (
-        <section className="py-16 bg-slate-50">
+        <section id="solutions" className="py-16 bg-slate-50">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -41,7 +47,7 @@ const Solutions = () => {
                 </div>
 
                 {/* 4-Column Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {solutions.map((solution, idx) => (
                         <div
                             key={idx}

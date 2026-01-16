@@ -28,7 +28,7 @@ const AboutUsPage = () => {
                             </h1>
 
                             <p className="text-lg text-slate-500 mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0 font-medium">
-                                Founded 9+ years ago, Track MyAds has evolved into a leading performance marketing solution. We help networks and advertisers track, optimize, and manage their campaigns with ease.
+                                TrackMyAds is a performance tracking platform built for affiliates and advertisers who demand clarity, precision, and control over their marketing efforts. Designed to deliver advanced data analytics and end-to-end campaign tracking, TrackMyAds empowers businesses to understand and optimize every touchpoint in the customer journey.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
@@ -80,10 +80,10 @@ const AboutUsPage = () => {
                                 Our Mission
                             </h2>
                             <p className="text-slate-600 text-lg mb-6 leading-relaxed">
-                                Track MyAds represents performance, quality, and reliability. Our mission is to empower affiliate networks, advertisers, and agencies with a robust tracking platform that simplifies campaign management and maximizes ROI.
+                                Our platform enables users to track, analyze, and attribute performance across channels in real time, helping them make smarter, faster, and more profitable decisions. From click to conversion, we ensure complete visibility into what drives results, allowing affiliates and advertisers to scale campaigns with confidence.
                             </p>
                             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                                We believe in continuous innovation, ensuring our clients stay ahead of market trends with cutting-edge features and 24/7 dedicated support.
+                                At TrackMyAds, we focus on simplicity, accuracy, and performance. With powerful tracking technology, flexible attribution models, and actionable insights, we help performance marketers turn data into growth.
                             </p>
                             <div className="flex gap-4">
                                 <Link to="/contact" className="text-[#1D2B4F] font-bold hover:underline flex items-center gap-2">
@@ -96,7 +96,7 @@ const AboutUsPage = () => {
             </section>
 
             {/* Timeline Section */}
-            <section className="py-24 bg-white">
+            {/* <section className="py-24 bg-white">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 font-display">
@@ -126,10 +126,10 @@ const AboutUsPage = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Stats Section */}
-            <section className="py-20 bg-[#1D2B4F] text-white">
+            {/* <section className="py-20 bg-[#1D2B4F] text-white">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
                         <div className="p-4">
@@ -158,18 +158,17 @@ const AboutUsPage = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Footer CTA */}
-            <section className="py-20 bg-white">
+            {/* <section className="py-20 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="bg-[#f8fafc] rounded-[2rem] border border-slate-200 p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-12 relative overflow-hidden">
 
                         <div className="relative z-10 text-center md:text-left">
-                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Start your 14 days free trial</h2>
+                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
                             <div className="flex flex-wrap gap-6 text-slate-600 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Support 24/7</span>
+                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> No credit card required</span>
                             </div>
                         </div>
 
@@ -180,7 +179,7 @@ const AboutUsPage = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };

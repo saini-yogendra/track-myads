@@ -268,14 +268,12 @@ const MobileVASPage = () => {
                     <div className="bg-white rounded-[2rem] shadow-2xl border border-slate-200 p-12 lg:p-16 flex flex-col items-center text-center relative overflow-hidden">
 
                         <div className="relative z-10 max-w-2xl">
-                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Start your 14 days free trial</h2>
-
-                            <div className="flex flex-wrap justify-center gap-6 mb-10 text-slate-600 font-medium">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> No credit card required</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Support 24/7</span>
-                            </div>
-
+                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
+                            <ul className="space-y-3 mb-10">
+                                <li className="flex items-center gap-3 text-slate-600 justify-center">
+                                    <CheckCircle className="w-5 h-5 text-green-500" /> No credit card required
+                                </li>
+                            </ul>
                             <Link to="/contact" className="inline-block bg-[#1a2b4b] text-white hover:bg-[#111c30] px-12 py-5 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105 whitespace-nowrap">
                                 Request Free Trial
                             </Link>

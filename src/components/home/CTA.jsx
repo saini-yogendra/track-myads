@@ -9,10 +9,10 @@ const CTA = () => {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center relative z-10">
                 <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                    Start your 14 days free trial
+                    Try with 10 days free trial
                 </h2>
                 <p className="text-lg text-blue-100 mb-10 max-w-2xl mx-auto">
-                    Join hundreds of companies that trust us with their performance marketing. No credit card required, cancel anytime.
+                    Powering performance marketing for hundreds of businesses worldwide. Start free—no credit card required. Cancel anytime.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <button className="w-full sm:w-auto px-8 py-4 bg-white text-primary font-bold rounded-md hover:bg-slate-50 hover:shadow-lg transition-all text-lg">
@@ -22,9 +22,6 @@ const CTA = () => {
                         Schedule Demo
                     </button>
                 </div>
-                <p className="mt-8 text-sm text-blue-200">
-                    Trusted by 850+ Companies • Support 24/7
-                </p>
             </div>
         </div>
     );

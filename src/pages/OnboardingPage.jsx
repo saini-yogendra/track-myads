@@ -246,12 +246,12 @@ const OnboardingPage = () => {
                     <div className="bg-[#f8f9fa] rounded-[2rem] border border-slate-200 p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-12 relative overflow-hidden">
 
                         <div className="relative z-10 text-center md:text-left">
-                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Start your 14 days free trial</h2>
-                            <div className="flex flex-wrap gap-6 text-slate-600 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Trusted by 850+ Companies</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> No credit card required</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> Support 24/7</span>
-                            </div>
+                            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
+                            <ul className="space-y-3">
+                                <li className="flex items-center gap-3 text-slate-600 justify-center lg:justify-start">
+                                    <CheckCircle className="w-5 h-5 text-green-500" /> No credit card required
+                                </li>
+                            </ul>
                         </div>
 
                         <div className="relative z-10">

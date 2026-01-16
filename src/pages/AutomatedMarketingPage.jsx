@@ -313,9 +313,9 @@ const AutomatedMarketingPage = () => {
             {/* CTA Section */}
             <section className="py-20 bg-gradient-to-br from-primary to-blue-700 text-white text-center">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Start your 14 days free trial</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Try with 10 days free trial</h2>
                     <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-                        Trusted by 850+ Companies | No credit card required | Support 24/7
+                        No credit card required
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <Link to="/contact" className="bg-white text-primary hover:bg-slate-100 px-10 py-4 rounded-full font-bold text-lg shadow-xl shadow-blue-900/20 transition-all">
