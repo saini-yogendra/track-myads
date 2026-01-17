@@ -103,20 +103,20 @@ const BlogPage = () => {
                                 <img src={featuredPost.image} alt={featuredPost.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                             </div>
                             <div className="bg-[#1D2B4F] text-white p-8 lg:p-12 flex flex-col justify-center">
-                                <div className="mb-4 flex items-center gap-3 text-sm text-blue-200">
-                                    <span className="bg-blue-500/20 px-3 py-1 rounded-full text-blue-300 font-bold text-xs uppercase tracking-wide">{featuredPost.category}</span>
+                                <div className="mb-4 flex items-center gap-3 text-sm text-orange-200">
+                                    <span className="bg-[#fe8023]/20 px-3 py-1 rounded-full text-orange-300 font-bold text-xs uppercase tracking-wide">{featuredPost.category}</span>
                                     <span className="flex items-center gap-1"><Calendar size={14} /> {featuredPost.date}</span>
                                 </div>
                                 <h3 className="text-2xl lg:text-4xl font-bold mb-4 font-display leading-tight">{featuredPost.title}</h3>
-                                <p className="text-blue-100 mb-8 line-clamp-3">{featuredPost.excerpt}</p>
+                                <p className="text-orange-100 mb-8 line-clamp-3">{featuredPost.excerpt}</p>
                                 <div className="flex items-center justify-between mt-auto">
                                     <div className="flex items-center gap-3">
-                                        <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center font-bold text-blue-300">
+                                        <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center font-bold text-orange-300">
                                             {featuredPost.author.charAt(0)}
                                         </div>
                                         <span className="font-medium text-sm">{featuredPost.author}</span>
                                     </div>
-                                    <Link to="/resources/blog/post-1" className="bg-white text-[#1D2B4F] rounded-full p-3 hover:bg-blue-50 transition-colors">
+                                    <Link to="/resources/blog/post-1" className="bg-white text-[#1D2B4F] rounded-full p-3 hover:bg-orange-50 transition-colors">
                                         <ArrowRight size={20} />
                                     </Link>
                                 </div>
@@ -151,7 +151,7 @@ const BlogPage = () => {
                                             <span className="flex items-center gap-1"><Calendar size={12} /> {post.date}</span>
                                             <span className="flex items-center gap-1"><Clock size={12} /> 5 min read</span>
                                         </div>
-                                        <h3 className="text-xl font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                                        <h3 className="text-xl font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-[#fe8023] transition-colors">
                                             <Link to="/resources/blog/post-1">{post.title}</Link>
                                         </h3>
                                         <p className="text-slate-500 text-sm line-clamp-3 mb-6 flex-grow">{post.excerpt}</p>
@@ -163,7 +163,7 @@ const BlogPage = () => {
                                                 </div>
                                                 <span className="text-xs font-bold text-slate-700">{post.author}</span>
                                             </div>
-                                            <Link to="/resources/blog/post-1" className="text-blue-600 font-bold text-xs flex items-center gap-1 hover:gap-2 transition-all">
+                                            <Link to="/resources/blog/post-1" className="text-[#fe8023] font-bold text-xs flex items-center gap-1 hover:gap-2 transition-all">
                                                 Read More <ArrowRight size={14} />
                                             </Link>
                                         </div>

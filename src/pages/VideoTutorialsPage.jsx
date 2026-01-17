@@ -3,7 +3,7 @@ import { Play } from 'lucide-react';
 
 const VideoTutorialsPage = () => {
     const videos = [
-        { title: "Platform Overview: Getting Started", duration: "5:20", thumb: "bg-blue-100" },
+        { title: "Platform Overview: Getting Started", duration: "5:20", thumb: "bg-orange-100" },
         { title: "How to Set Up Your First Campaign", duration: "12:15", thumb: "bg-purple-100" },
         { title: "Understanding Smart Links", duration: "8:45", thumb: "bg-green-100" },
         { title: "Integrating with Shopify", duration: "6:30", thumb: "bg-orange-100" },
@@ -35,7 +35,7 @@ const VideoTutorialsPage = () => {
                                         {vid.duration}
                                     </span>
                                 </div>
-                                <h3 className="font-bold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">{vid.title}</h3>
+                                <h3 className="font-bold text-lg text-slate-900 group-hover:text-[#fe8023] transition-colors">{vid.title}</h3>
                             </div>
                         ))}
                     </div>

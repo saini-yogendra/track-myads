@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ const Navbar = () => {
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
-                    <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer">
+                    <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer gap-1">
+                        <img src={logo} alt="TrackMyAds Logo" className="h-10 w-auto" />
                         <span className="text-3xl font-bold tracking-tight text-secondary">
                             Track<span className="text-primary">MyAds</span>
                         </span>

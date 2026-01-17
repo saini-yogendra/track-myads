@@ -137,8 +137,8 @@ const FraudDetectionPage = () => {
                             </p>
                             <div className="space-y-6">
                                 <div className="flex gap-4">
-                                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center shrink-0">
-                                        <Activity className="w-6 h-6 text-blue-600" />
+                                    <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center shrink-0">
+                                        <Activity className="w-6 h-6 text-[#fe8023]" />
                                     </div>
                                     <div>
                                         <h3 className="font-bold text-slate-900 mb-1">Prevent Click Injection</h3>
@@ -146,8 +146,8 @@ const FraudDetectionPage = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
-                                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center shrink-0">
-                                        <Zap className="w-6 h-6 text-blue-600" />
+                                    <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center shrink-0">
+                                        <Zap className="w-6 h-6 text-[#fe8023]" />
                                     </div>
                                     <div>
                                         <h3 className="font-bold text-slate-900 mb-1">Intelligent Algorithm</h3>
@@ -285,7 +285,7 @@ const FraudDetectionPage = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div className="flex justify-center">
-                            <Globe className="w-64 h-64 text-blue-200" strokeWidth={0.5} />
+                            <Globe className="w-64 h-64 text-orange-200" strokeWidth={0.5} />
                         </div>
                         <div>
                             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6 font-display">
@@ -300,7 +300,7 @@ const FraudDetectionPage = () => {
                                     <span className="font-bold text-slate-700 text-sm">Block Blank Referrer</span>
                                 </div>
                                 <div className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
-                                    <Shield className="w-5 h-5 text-blue-500" />
+                                    <Shield className="w-5 h-5 text-[#fe8023]" />
                                     <span className="font-bold text-slate-700 text-sm">Blacklist Suspicious Source</span>
                                 </div>
                                 <div className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
@@ -359,7 +359,7 @@ const FraudDetectionPage = () => {
                 <div className="container mx-auto px-4 text-center">
                     <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-sm rounded-3xl p-12 border border-white/10">
                         <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Try with 10 days free trial</h2>
-                        <div className="flex flex-wrap justify-center gap-6 mb-10 text-blue-200 text-sm font-semibold tracking-wide uppercase">
+                        <div className="flex flex-wrap justify-center gap-6 mb-10 text-orange-200 text-sm font-semibold tracking-wide uppercase">
                             <span className="flex items-center gap-2"><CheckCircle size={16} /> No Credit Card Required</span>
                         </div>
                         <Link to="/contact" className="inline-block bg-white text-[#272742] hover:bg-slate-100 px-10 py-4 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105 active:scale-95">

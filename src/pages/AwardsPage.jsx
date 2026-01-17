@@ -17,7 +17,7 @@ const AwardsPage = () => {
             org: 'G2',
             title: 'Best Support',
             desc: 'Highest rated for Quality of Support in the Relationship Index.',
-            icon: <ThumbsUp className="w-10 h-10 text-blue-500" />
+            icon: <ThumbsUp className="w-10 h-10 text-[#fe8023]" />
         },
         {
             year: '2023',
@@ -102,7 +102,7 @@ const AwardsPage = () => {
                                     </div>
                                     <span className="bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full">{award.year}</span>
                                 </div>
-                                <div className="text-sm font-bold text-blue-600 mb-1 uppercase tracking-wider">{award.org}</div>
+                                <div className="text-sm font-bold text-[#fe8023] mb-1 uppercase tracking-wider">{award.org}</div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-3">{award.title}</h3>
                                 <p className="text-slate-500">{award.desc}</p>
                             </motion.div>
@@ -126,8 +126,8 @@ const AwardsPage = () => {
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Experience the best in class</h2>
 
-                            <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
+                            <div className="flex flex-wrap gap-6 text-orange-200 font-medium justify-center md:justify-start">
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

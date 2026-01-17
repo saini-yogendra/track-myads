@@ -11,7 +11,7 @@ const CaseStudiesPage = () => {
             title: "Scaling Revenue by 300% with Automated Tracking",
             metrics: ["300% Revenue Growth", "50% Less Manual Work"],
             desc: "How Fomento Agency utilized Smart Offers and Automation tools to scale their operations globally without increasing headcount.",
-            color: "bg-blue-50 text-blue-600",
+            color: "bg-orange-50 text-[#fe8023]",
             icon: <TrendingUp className="w-8 h-8" />
         },
         {
@@ -120,7 +120,7 @@ const CaseStudiesPage = () => {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
 
                         <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to write your success story?</h2>
-                        <p className="text-xl text-blue-200 mb-10 max-w-2xl mx-auto">
+                        <p className="text-xl text-orange-200 mb-10 max-w-2xl mx-auto">
                             Join 850+ companies growing with Track MyAds today.
                         </p>
 

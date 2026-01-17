@@ -60,7 +60,7 @@ const OnboardingPage = () => {
                                 {/* Floating UI Elements */}
                                 <div className="absolute top-10 -left-5 bg-white p-3 rounded-xl shadow-lg z-20 animate-bounce-slow hidden md:block">
                                     <div className="flex items-center gap-3">
-                                        <div className="bg-blue-100 p-2 rounded-lg"><Monitor className="w-5 h-5 text-blue-600" /></div>
+                                        <div className="bg-orange-100 p-2 rounded-lg"><Monitor className="w-5 h-5 text-[#fe8023]" /></div>
                                         <div>
                                             <div className="text-xs font-bold text-slate-500">Training</div>
                                             <div className="text-sm font-bold text-slate-900">Session</div>
@@ -112,8 +112,8 @@ const OnboardingPage = () => {
                             </ul>
                         </div>
                         <div className="order-1 lg:order-2 flex justify-center">
-                            <div className="bg-blue-50 p-10 rounded-3xl w-full max-w-md flex items-center justify-center">
-                                <Video className="w-40 h-40 text-blue-500 opacity-80" strokeWidth={0.8} />
+                            <div className="bg-orange-50 p-10 rounded-3xl w-full max-w-md flex items-center justify-center">
+                                <Video className="w-40 h-40 text-[#fe8023] opacity-80" strokeWidth={0.8} />
                             </div>
                         </div>
                     </div>

@@ -80,7 +80,7 @@ const PricingPage = () => {
             {/* Hero Section */}
             <section className="pt-32 pb-20 lg:pt-40 lg:pb-16 text-center">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="inline-block bg-blue-50 text-blue-800 px-4 py-2 rounded-full text-sm font-bold mb-6">
+                    <div className="inline-block bg-orange-50 text-[#9a4b14] px-4 py-2 rounded-full text-sm font-bold mb-6">
                         Try with <span className="text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-md mx-1">10 days</span> free trial
                     </div>
                     <h1 className="text-4xl lg:text-[56px] font-bold text-slate-900 leading-tight mb-4 font-display">
@@ -140,7 +140,7 @@ const PricingPage = () => {
                     </div>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         <div className="flex gap-4">
-                            <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><HeadphonesIcon className="w-6 h-6 text-blue-600" /></div>
+                            <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><HeadphonesIcon className="w-6 h-6 text-[#fe8023]" /></div>
                             <div>
                                 <h3 className="font-bold text-slate-900">24/7 Support</h3>
                                 <p className="text-sm text-slate-600 mt-1">Our team is always available to help everyday.</p>

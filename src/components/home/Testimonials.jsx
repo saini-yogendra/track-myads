@@ -12,7 +12,7 @@ const Testimonials = () => {
             author: "Sarah Johnson",
             role: "Founder & COO",
             company: "MediaGuru Networks",
-            bg: "bg-blue-50"
+            bg: "bg-orange-50"
         },
         {
             stat: "85%",
@@ -141,7 +141,7 @@ const Testimonials = () => {
                         <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display">
                             Our Awards Prove the Excellence
                         </h2>
-                        <p className="text-blue-200">Recognized by industry leaders worldwide</p>
+                        <p className="text-orange-200">Recognized by industry leaders worldwide</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
@@ -150,17 +150,17 @@ const Testimonials = () => {
                             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
                                 <AwardIcon className="w-12 h-12 text-orange-400 mx-auto mb-3" />
                                 <div className="text-sm font-bold">High Performer</div>
-                                <div className="text-xs text-blue-200">Winter 2025</div>
+                                <div className="text-xs text-orange-200">Winter 2025</div>
                             </div>
                             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
                                 <AwardIcon className="w-12 h-12 text-orange-400 mx-auto mb-3" />
                                 <div className="text-sm font-bold">Highest User Adoption</div>
-                                <div className="text-xs text-blue-200">Winter 2025</div>
+                                <div className="text-xs text-orange-200">Winter 2025</div>
                             </div>
                             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
                                 <AwardIcon className="w-12 h-12 text-orange-400 mx-auto mb-3" />
                                 <div className="text-sm font-bold">Fastest Implementation</div>
-                                <div className="text-xs text-blue-200">Winter 2025</div>
+                                <div className="text-xs text-orange-200">Winter 2025</div>
                             </div>
                         </div>
 
@@ -168,11 +168,11 @@ const Testimonials = () => {
                         <div className="space-y-8">
                             <div>
                                 <div className="text-6xl font-bold mb-2">113</div>
-                                <div className="text-xl text-blue-200">Industrial Awards</div>
+                                <div className="text-xl text-orange-200">Industrial Awards</div>
                             </div>
                             <div>
                                 <div className="text-6xl font-bold mb-2">4.7/5</div>
-                                <div className="text-xl text-blue-200">Average Rating</div>
+                                <div className="text-xl text-orange-200">Average Rating</div>
                                 <div className="flex gap-1 mt-2">
                                     {[...Array(5)].map((_, i) => (
                                         <Star key={i} size={20} className="fill-yellow-400 text-yellow-400" />

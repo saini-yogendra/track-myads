@@ -14,7 +14,7 @@ const MediaBuyingPage = () => {
                     <h1 className="text-4xl lg:text-6xl font-bold mb-6 font-display">
                         Media Buying Platform
                     </h1>
-                    <p className="text-lg text-blue-200 max-w-2xl mx-auto mb-10">
+                    <p className="text-lg text-orange-200 max-w-2xl mx-auto mb-10">
                         Track costs, optimize bids, and maximize ROAS across all your ad networks in one dashboard.
                     </p>
                 </div>
@@ -25,7 +25,7 @@ const MediaBuyingPage = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-12 items-center mb-24 max-w-6xl mx-auto">
                         <div>
-                            <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                            <div className="w-16 h-16 bg-orange-50 text-[#fe8023] rounded-2xl flex items-center justify-center mb-6">
                                 <BarChart3 size={32} />
                             </div>
                             <h2 className="text-3xl font-bold text-slate-900 mb-4 font-display">Cost Aggregation</h2>
@@ -48,7 +48,7 @@ const MediaBuyingPage = () => {
                             <div className="space-y-4">
                                 <div className="h-4 bg-slate-200 rounded w-3/4"></div>
                                 <div className="h-4 bg-slate-200 rounded w-1/2"></div>
-                                <div className="h-32 bg-blue-100 rounded-xl w-full"></div>
+                                <div className="h-32 bg-orange-100 rounded-xl w-full"></div>
                             </div>
                         </div>
                     </div>

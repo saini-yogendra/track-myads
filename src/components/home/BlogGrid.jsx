@@ -7,7 +7,7 @@ const BlogGrid = () => {
             category: "Guide",
             title: "The Ultimate Guide to Affiliate Tracking in 2026",
             date: "Jan 12, 2026",
-            image: "bg-blue-100"
+            image: "bg-orange-100"
         },
         {
             category: "Case Study",

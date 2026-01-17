@@ -91,7 +91,7 @@ const AgenciesPage = () => {
                             <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 max-w-sm w-full relative">
                                 <div className="space-y-6">
                                     <div className="flex items-start gap-4">
-                                        <div className="bg-blue-100 p-3 rounded-xl"><Globe className="w-6 h-6 text-blue-600" /></div>
+                                        <div className="bg-orange-100 p-3 rounded-xl"><Globe className="w-6 h-6 text-[#fe8023]" /></div>
                                         <div>
                                             <h3 className="font-bold text-slate-900">Probabilistic Attribution</h3>
                                             <p className="text-sm text-slate-500">Advanced tracking without cookies.</p>
@@ -115,7 +115,7 @@ const AgenciesPage = () => {
                             </div>
                         </div>
                         <div className="order-1 lg:order-2">
-                            <div className="inline-block bg-blue-50 text-blue-600 px-4 py-1 rounded-full text-sm font-bold mb-4">
+                            <div className="inline-block bg-orange-50 text-[#fe8023] px-4 py-1 rounded-full text-sm font-bold mb-4">
                                 Connect Everywhere
                             </div>
                             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6 font-display">
@@ -146,7 +146,7 @@ const AgenciesPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-[#f8f9fa] p-8 rounded-2xl hover:shadow-lg transition-shadow">
-                            <Globe className="w-12 h-12 text-blue-500 mb-6" />
+                            <Globe className="w-12 h-12 text-[#fe8023] mb-6" />
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Geo & Device Targeting</h3>
                             <p className="text-slate-600">Target specific countries, regions, device types, and operating systems.</p>
                         </div>
@@ -216,7 +216,7 @@ const AgenciesPage = () => {
                                     </div>
                                 </li>
                                 <li className="flex items-center gap-4">
-                                    <div className="bg-blue-100 p-2 rounded-lg"><CheckCircle className="w-5 h-5 text-blue-600" /></div>
+                                    <div className="bg-orange-100 p-2 rounded-lg"><CheckCircle className="w-5 h-5 text-[#fe8023]" /></div>
                                     <div>
                                         <h4 className="font-bold text-slate-900">Link Tester</h4>
                                         <p className="text-sm text-slate-500">Automatically check for broken links and pause offers.</p>

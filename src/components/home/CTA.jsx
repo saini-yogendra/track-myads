@@ -11,7 +11,7 @@ const CTA = () => {
                 <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
                     Try with 10 days free trial
                 </h2>
-                <p className="text-lg text-blue-100 mb-10 max-w-2xl mx-auto">
+                <p className="text-lg text-orange-100 mb-10 max-w-2xl mx-auto">
                     Powering performance marketing for hundreds of businesses worldwide. Start free—no credit card required. Cancel anytime.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

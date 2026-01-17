@@ -29,7 +29,7 @@ const CareersPage = () => {
                     </div>
 
                     <h1 className="text-4xl lg:text-[64px] font-bold text-slate-900 leading-tight mb-8 font-display">
-                        Build the Future of <br /><span className="text-blue-600">Performance Marketing</span>
+                        Build the Future of <br /><span className="text-[#fe8023]">Performance Marketing</span>
                     </h1>
 
                     <p className="text-lg text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -53,7 +53,7 @@ const CareersPage = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {perks.map((perk, index) => (
                             <div key={index} className="bg-slate-50 p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-slate-100 group">
-                                <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <div className="w-12 h-12 bg-orange-100 text-[#fe8023] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                     {React.cloneElement(perk.icon, { size: 24 })}
                                 </div>
                                 <h3 className="font-bold text-lg text-slate-900 mb-2">{perk.title}</h3>
@@ -70,7 +70,7 @@ const CareersPage = () => {
                     <div className="flex justify-between items-end mb-12 border-b border-white/10 pb-8">
                         <div>
                             <h2 className="text-3xl font-bold mb-2 font-display">Current Openings</h2>
-                            <p className="text-blue-200">Come join our growing team.</p>
+                            <p className="text-orange-200">Come join our growing team.</p>
                         </div>
                         <Link to="/contact" className="text-white underline font-bold hidden md:block">Don't see your role? Contact us</Link>
                     </div>
@@ -80,7 +80,7 @@ const CareersPage = () => {
                             <div key={index} className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between transition-all group">
                                 <div className="mb-4 md:mb-0 text-center md:text-left">
                                     <h3 className="text-xl font-bold mb-2">{pos.title}</h3>
-                                    <div className="flex gap-4 text-sm text-blue-200 justify-center md:justify-start">
+                                    <div className="flex gap-4 text-sm text-orange-200 justify-center md:justify-start">
                                         <span className="bg-white/10 px-3 py-1 rounded-full">{pos.dept}</span>
                                         <span className="flex items-center gap-1"><Globe size={14} /> {pos.loc}</span>
                                         <span>{pos.type}</span>

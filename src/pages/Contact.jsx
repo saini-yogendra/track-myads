@@ -15,7 +15,7 @@ const Contact = () => {
 
                         <div className="space-y-8">
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center text-primary flex-shrink-0">
+                                <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center text-primary flex-shrink-0">
                                     <Mail size={24} />
                                 </div>
                                 <div>

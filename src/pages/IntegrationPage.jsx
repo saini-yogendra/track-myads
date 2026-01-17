@@ -58,7 +58,7 @@ const IntegrationPage = () => {
                         >
                             <div className="relative">
                                 {/* Decorative Background */}
-                                <div className="absolute inset-0 bg-blue-50 rounded-[3rem] transform rotate-3 -z-10 border-2 border-dashed border-blue-200"></div>
+                                <div className="absolute inset-0 bg-orange-50 rounded-[3rem] transform rotate-3 -z-10 border-2 border-dashed border-orange-200"></div>
 
                                 {/* Floating UI Elements */}
                                 <div className="absolute top-20 right-0 bg-white p-3 rounded-lg shadow-lg z-20 animate-bounce-slow hidden md:block">
@@ -91,7 +91,7 @@ const IntegrationPage = () => {
             <section className="py-20 bg-white">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600">
+                        <div className="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center mx-auto mb-6 text-[#fe8023]">
                             <Smartphone className="w-8 h-8" />
                         </div>
                         <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 font-display">
@@ -177,8 +177,8 @@ const IntegrationPage = () => {
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Try with 10 days free trial</h2>
 
-                            <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
+                            <div className="flex flex-wrap gap-6 text-orange-200 font-medium justify-center md:justify-start">
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

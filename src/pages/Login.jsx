@@ -8,11 +8,11 @@ const Login = () => {
             {/* Left Side - Hero/Branding */}
             <div className="hidden lg:flex lg:w-1/2 bg-secondary relative overflow-hidden items-center justify-center p-12">
                 <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-primary/20 blur-3xl"></div>
-                <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-blue-500/10 blur-3xl"></div>
+                <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-[#fe8023]/10 blur-3xl"></div>
 
                 <div className="relative z-10 text-white max-w-md">
                     <h1 className="text-5xl font-bold mb-6">Welcome Back!</h1>
-                    <p className="text-blue-100 text-lg leading-relaxed mb-8">
+                    <p className="text-orange-100 text-lg leading-relaxed mb-8">
                         Access your dashboard to track campaigns, manage affiliates, and optimize your performance marketing strategies.
                     </p>
                     <div className="bg-white/10 p-6 rounded-xl backdrop-blur-sm border border-white/10">
@@ -20,7 +20,7 @@ const Login = () => {
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center font-bold">98</div>
                             <div>
                                 <h4 className="font-semibold">Trust Score</h4>
-                                <p className="text-sm text-blue-200">Based on recent activity</p>
+                                <p className="text-sm text-orange-200">Based on recent activity</p>
                             </div>
                         </div>
                         <div className="h-2 bg-white/20 rounded-full overflow-hidden">

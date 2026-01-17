@@ -42,7 +42,7 @@ const Footer = () => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
                         Try with 10 days free trial
                     </h2>
-                    <p className="text-blue-100 mb-8 text-lg">
+                    <p className="text-orange-100 mb-8 text-lg">
                         Powering performance marketing for hundreds of businesses worldwide. Start free—no credit card required. Cancel anytime.
                     </p>
                     <Link

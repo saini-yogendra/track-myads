@@ -55,7 +55,7 @@ const FAQ = () => {
                         </p>
                         <Link
                             to="/contact"
-                            className="inline-flex items-center gap-2 bg-primary hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg"
+                            className="inline-flex items-center gap-2 bg-primary hover:bg-[#fe8023] text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg"
                         >
                             Get Started <ArrowRight size={20} />
                         </Link>

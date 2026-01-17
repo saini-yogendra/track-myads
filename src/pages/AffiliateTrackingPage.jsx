@@ -38,7 +38,7 @@ const AffiliateTrackingPage = () => {
     ];
 
     const flexibilityFeatures = [
-        { title: "Audience Targeting", desc: "Segment users based on behavior, demographics, and more", icon: <Users className="w-10 h-10 text-blue-600" /> },
+        { title: "Audience Targeting", desc: "Segment users based on behavior, demographics, and more", icon: <Users className="w-10 h-10 text-[#fe8023]" /> },
         { title: "Deep Link Support", desc: "Direct users to specific app screens or web pages", icon: <LinkIcon className="w-10 h-10 text-green-600" /> },
         { title: "Periodic Scheduling", desc: "Automate campaign start/stop times", icon: <Zap className="w-10 h-10 text-orange-600" /> }
     ];
@@ -57,7 +57,7 @@ const AffiliateTrackingPage = () => {
             {/* Hero Section */}
             <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden bg-gradient-to-br from-slate-50 to-white">
                 {/* Background Decorations */}
-                <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+                <div className="absolute top-0 left-0 w-96 h-96 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
                 <div className="absolute top-0 right-0 w-96 h-96 bg-yellow-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
                 <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-pink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
@@ -145,8 +145,8 @@ const AffiliateTrackingPage = () => {
                                     <div className="flex gap-1 items-end h-12">
                                         <div className="w-2 bg-blue-300 h-6 rounded"></div>
                                         <div className="w-2 bg-blue-400 h-8 rounded"></div>
-                                        <div className="w-2 bg-blue-500 h-10 rounded"></div>
-                                        <div className="w-2 bg-blue-600 h-12 rounded"></div>
+                                        <div className="w-2 bg-[#fe8023] h-10 rounded"></div>
+                                        <div className="w-2 bg-[#fe8023] h-12 rounded"></div>
                                     </div>
                                 </div>
                             </div>
@@ -265,7 +265,7 @@ const AffiliateTrackingPage = () => {
                             <p className="text-lg text-slate-600 mb-8">
                                 Have questions? We're here to help.
                             </p>
-                            <Link to="/contact" className="inline-flex items-center gap-2 bg-primary hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg">
+                            <Link to="/contact" className="inline-flex items-center gap-2 bg-primary hover:bg-[#fe8023] text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg">
                                 Get Started <ArrowRight size={20} />
                             </Link>
                         </div>
@@ -300,7 +300,7 @@ const AffiliateTrackingPage = () => {
             <section className="py-20 bg-gradient-to-br from-[#1a2b4b] to-[#2d4a7c] text-white text-center">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl md:text-5xl font-bold mb-6">Try with 10 days free trial</h2>
-                    <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+                    <p className="text-xl text-orange-100 mb-10 max-w-2xl mx-auto">
                         No credit card required
                     </p>
                     <Link to="/contact" className="inline-block bg-white text-[#1a2b4b] hover:bg-slate-100 px-10 py-4 rounded-full font-bold text-lg shadow-xl transition-all">

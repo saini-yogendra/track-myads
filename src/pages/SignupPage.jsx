@@ -15,7 +15,7 @@ const SignupPage = () => {
                     <h1 className="text-4xl lg:text-5xl font-bold mb-8 font-display">Join 850+ leaders in performance marketing</h1>
                     <ul className="space-y-4 mb-12">
                         {["14-Day Free Trial", "No Credit Card Required", "Instant Access", "Free Migration"].map((item, i) => (
-                            <li key={i} className="flex items-center gap-3 text-xl font-medium text-blue-100">
+                            <li key={i} className="flex items-center gap-3 text-xl font-medium text-orange-100">
                                 <CheckCircle className="text-[#F8D568]" size={24} /> {item}
                             </li>
                         ))}
@@ -31,7 +31,7 @@ const SignupPage = () => {
                         <div className="w-12 h-12 bg-white/20 rounded-full"></div>
                         <div>
                             <p className="font-bold">Sarah Jenkins</p>
-                            <p className="text-sm text-blue-200">CEO, AdScale</p>
+                            <p className="text-sm text-orange-200">CEO, AdScale</p>
                         </div>
                     </div>
                 </div>

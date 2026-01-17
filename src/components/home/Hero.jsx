@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="relative overflow-hidden bg-white pt-32 pb-12 lg:pt-40 lg:pb-16">
             {/* Background decorative shapes */}
-            <div className="absolute top-20 right-10 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+            <div className="absolute top-20 right-10 w-72 h-72 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
             <div className="absolute top-40 left-10 w-72 h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
             <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-pink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
 
@@ -73,23 +73,23 @@ const Hero = () => {
                             />
 
                             {/* Floating geometric shapes */}
-                            <div className="absolute -top-8 -left-8 w-16 h-16 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>
+                            <div className="absolute -top-8 -left-8 w-16 h-16 bg-[#fe8023] rounded-full opacity-20 animate-pulse"></div>
                             <div className="absolute top-1/4 -right-8 w-24 h-24 bg-yellow-400 rounded-full opacity-20 animate-bounce-slow"></div>
                             <div className="absolute -bottom-8 left-1/4 w-20 h-20 bg-pink-500 rounded-full opacity-20 animate-pulse"></div>
 
                             {/* Floating dots pattern */}
                             <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                 <svg viewBox="0 0 100 100" className="w-full h-full">
-                                    <circle cx="10" cy="10" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="30" cy="10" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="50" cy="10" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="70" cy="10" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="90" cy="10" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="10" cy="30" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="30" cy="30" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="50" cy="30" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="70" cy="30" r="2" fill="currentColor" className="text-blue-600" />
-                                    <circle cx="90" cy="30" r="2" fill="currentColor" className="text-blue-600" />
+                                    <circle cx="10" cy="10" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="30" cy="10" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="50" cy="10" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="70" cy="10" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="90" cy="10" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="10" cy="30" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="30" cy="30" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="50" cy="30" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="70" cy="30" r="2" fill="currentColor" className="text-[#fe8023]" />
+                                    <circle cx="90" cy="30" r="2" fill="currentColor" className="text-[#fe8023]" />
                                 </svg>
                             </div>
                         </div>

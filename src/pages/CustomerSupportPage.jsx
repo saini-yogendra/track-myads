@@ -82,7 +82,7 @@ const CustomerSupportPage = () => {
 
                                 {/* Floating UI Elements */}
                                 <div className="absolute top-10 right-0 bg-white p-3 rounded-full shadow-lg z-20 animate-bounce-slow hidden md:flex items-center gap-2">
-                                    <Clock className="w-5 h-5 text-blue-600" />
+                                    <Clock className="w-5 h-5 text-[#fe8023]" />
                                     <span className="text-xs font-bold text-slate-900">Available 24x7</span>
                                 </div>
                                 <div className="absolute bottom-20 left-0 bg-white p-3 rounded-full shadow-lg z-20 animate-float hidden md:flex items-center gap-2">
@@ -129,8 +129,8 @@ const CustomerSupportPage = () => {
                             </ul>
                         </div>
                         <div className="order-1 lg:order-2 flex justify-center">
-                            <div className="bg-blue-50 p-10 rounded-full w-80 h-80 flex items-center justify-center shadow-inner">
-                                <Clock className="w-40 h-40 text-blue-500 opacity-80" strokeWidth={0.8} />
+                            <div className="bg-orange-50 p-10 rounded-full w-80 h-80 flex items-center justify-center shadow-inner">
+                                <Clock className="w-40 h-40 text-[#fe8023] opacity-80" strokeWidth={0.8} />
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ const CustomerSupportPage = () => {
                             </p>
                             <div className="flex gap-4">
                                 <div className="flex flex-col items-center gap-2 bg-slate-50 p-4 rounded-xl w-24">
-                                    <MessageSquare className="w-6 h-6 text-blue-600" />
+                                    <MessageSquare className="w-6 h-6 text-[#fe8023]" />
                                     <span className="text-xs font-bold text-slate-700">Chat</span>
                                 </div>
                                 <div className="flex flex-col items-center gap-2 bg-slate-50 p-4 rounded-xl w-24">
@@ -235,8 +235,8 @@ const CustomerSupportPage = () => {
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to Experience Exceptional Support?</h2>
 
-                            <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
+                            <div className="flex flex-wrap gap-6 text-orange-200 font-medium justify-center md:justify-start">
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

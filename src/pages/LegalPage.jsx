@@ -73,7 +73,7 @@ const LegalPage = () => {
                                     <Link
                                         key={section.id}
                                         to={`/${section.id}`}
-                                        className={`flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-colors ${currentPath === section.id ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
+                                        className={`flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-colors ${currentPath === section.id ? 'bg-orange-50 text-[#c25e1a]' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
                                     >
                                         {section.icon}
                                         {section.title}
@@ -85,7 +85,7 @@ const LegalPage = () => {
 
                     {/* Content */}
                     <div className="lg:w-3/4">
-                        <div className="bg-white rounded-3xl shadow-sm p-10 lg:p-14 min-h-[600px] prose prose-slate max-w-none prose-headings:font-display prose-a:text-blue-600">
+                        <div className="bg-white rounded-3xl shadow-sm p-10 lg:p-14 min-h-[600px] prose prose-slate max-w-none prose-headings:font-display prose-a:text-[#fe8023]">
                             {getContent(currentPath)}
                         </div>
                     </div>

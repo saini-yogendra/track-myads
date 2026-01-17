@@ -22,7 +22,7 @@ const CompetitorComparePage = () => {
             {/* Hero Section */}
             <section className="pt-32 pb-20 lg:pt-40 lg:pb-28 text-center bg-slate-50 border-b border-slate-200">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-xs font-bold mb-6">
+                    <div className="inline-block bg-orange-100 text-[#9a4b14] px-4 py-2 rounded-full text-xs font-bold mb-6">
                         #1 Alternative
                     </div>
 
@@ -82,7 +82,7 @@ const CompetitorComparePage = () => {
                 <div className="container mx-auto px-4 max-w-4xl text-center">
                     <h2 className="text-3xl font-bold mb-12 font-display">Why our customers switched</h2>
                     <div className="bg-white p-10 rounded-3xl shadow-lg border border-slate-100 text-left relative">
-                        <div className="text-6xl text-blue-100 absolute top-4 left-6 font-serif">"</div>
+                        <div className="text-6xl text-orange-100 absolute top-4 left-6 font-serif">"</div>
                         <p className="text-lg text-slate-600 mb-6 italic relative z-10 pl-4">
                             We used {competitorName} for two years, but the support was slow and the prices kept going up. Moving to Track MyAds was the best decision. The migration was instant and the team is incredibly helpful.
                         </p>

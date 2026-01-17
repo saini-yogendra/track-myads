@@ -55,7 +55,7 @@ const AutomatedMarketingPage = () => {
                                 transition={{ delay: 0.3 }}
                                 className="flex flex-col sm:flex-row gap-4 mb-10"
                             >
-                                <Link to="/contact" className="bg-primary hover:bg-blue-600 text-white px-8 py-3.5 rounded-md font-bold text-lg transition-all shadow-lg shadow-blue-500/25 text-center flex items-center justify-center gap-2">
+                                <Link to="/contact" className="bg-primary hover:bg-[#fe8023] text-white px-8 py-3.5 rounded-md font-bold text-lg transition-all shadow-lg shadow-blue-500/25 text-center flex items-center justify-center gap-2">
                                     Request Free Trial
                                 </Link>
                                 <Link to="/resources/case-studies" className="bg-white border hover:border-primary text-slate-600 hover:text-primary px-8 py-3.5 rounded-md font-bold text-lg transition-all text-center flex items-center justify-center gap-2">
@@ -95,7 +95,7 @@ const AutomatedMarketingPage = () => {
                             </div>
                             <div className="absolute -bottom-5 -left-5 bg-white p-4 rounded-xl shadow-lg border border-slate-100 animate-pulse-slow hidden lg:block z-20">
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-blue-100 p-2 rounded-lg text-blue-600"><Settings size={20} /></div>
+                                    <div className="bg-orange-100 p-2 rounded-lg text-[#fe8023]"><Settings size={20} /></div>
                                     <div>
                                         <div className="text-xs text-slate-500 font-bold">Easy to Set Up</div>
                                         <div className="text-sm font-bold text-slate-900">One-Click</div>
@@ -158,7 +158,7 @@ const AutomatedMarketingPage = () => {
                                 <p className="text-slate-600">Tracking leads to conversions, giving you the information you need to make informed decisions.</p>
                             </div>
                             <div className="p-6">
-                                <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mx-auto mb-6 text-blue-600">
+                                <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mx-auto mb-6 text-[#fe8023]">
                                     <ShieldCheck size={32} />
                                 </div>
                                 <h3 className="text-xl font-bold text-secondary mb-3">Trusted Source</h3>

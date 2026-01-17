@@ -63,7 +63,7 @@ const MigrationPage = () => {
                                 {/* Floating UI Elements */}
                                 <div className="absolute top-10 left-0 bg-white p-3 rounded-lg shadow-lg z-20 animate-bounce-slow hidden md:block">
                                     <div className="flex items-center gap-2">
-                                        <Database className="w-5 h-5 text-blue-600" />
+                                        <Database className="w-5 h-5 text-[#fe8023]" />
                                         <span className="text-xs font-bold text-slate-900">Data Transfer</span>
                                     </div>
                                 </div>
@@ -98,8 +98,8 @@ const MigrationPage = () => {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="p-8 rounded-3xl bg-blue-50 border border-blue-100 hover:shadow-lg transition-all group">
-                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
+                        <div className="p-8 rounded-3xl bg-orange-50 border border-orange-100 hover:shadow-lg transition-all group">
+                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#fe8023] mb-6 group-hover:scale-110 transition-transform">
                                 <Upload className="w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">One-Click Import</h3>
@@ -174,13 +174,13 @@ const MigrationPage = () => {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
 
                         <div className="relative z-10 text-center md:text-left">
-                            <div className="flex items-center gap-2 mb-4 justify-center md:justify-start opacity-80 text-blue-200">
+                            <div className="flex items-center gap-2 mb-4 justify-center md:justify-start opacity-80 text-orange-200">
                                 <ShieldCheck className="w-5 h-5" />
                                 <span className="font-bold tracking-wider uppercase text-sm">Secure Migration</span>
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 font-display">Try with 10 days free trial</h2>
                             <ul className="space-y-3">
-                                <li className="flex items-center gap-3 text-blue-100 justify-center lg:justify-start">
+                                <li className="flex items-center gap-3 text-orange-100 justify-center lg:justify-start">
                                     <CheckCircle className="w-5 h-5 text-green-400" /> No credit card required
                                 </li>
                             </ul>

@@ -93,8 +93,8 @@ const MobileAttributionPage = () => {
                                 {/* Floating Feature Badge */}
                                 <div className="absolute top-20 -right-10 bg-white p-4 rounded-xl shadow-xl z-20 animate-float hidden md:block">
                                     <div className="flex items-center gap-3">
-                                        <div className="bg-blue-100 p-2 rounded-lg">
-                                            <Cloud className="w-6 h-6 text-blue-600" />
+                                        <div className="bg-orange-100 p-2 rounded-lg">
+                                            <Cloud className="w-6 h-6 text-[#fe8023]" />
                                         </div>
                                         <div>
                                             <div className="text-sm font-bold text-slate-900">MMP Integration</div>
@@ -200,13 +200,13 @@ const MobileAttributionPage = () => {
                             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                                 Already using an MMP like AppsFlyer, Adjust, or Branch? No problem. Track MyAds integrates seamlessly with leading MMPs to consolidate your data in one place.
                             </p>
-                            <Link to="/services/integration" className="text-blue-600 font-bold hover:underline flex items-center gap-2">
+                            <Link to="/services/integration" className="text-[#fe8023] font-bold hover:underline flex items-center gap-2">
                                 View all integrations <ArrowRight size={16} />
                             </Link>
                         </div>
                         <div className="flex justify-center">
-                            <div className="bg-blue-50 p-10 rounded-3xl w-full max-w-md flex items-center justify-center">
-                                <Cloud className="w-40 h-40 text-blue-500" strokeWidth={0.5} />
+                            <div className="bg-orange-50 p-10 rounded-3xl w-full max-w-md flex items-center justify-center">
+                                <Cloud className="w-40 h-40 text-[#fe8023]" strokeWidth={0.5} />
                             </div>
                         </div>
                     </div>

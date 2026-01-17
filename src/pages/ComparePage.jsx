@@ -57,7 +57,7 @@ const ComparePage = () => {
                                     <span className="text-2xl font-bold text-slate-400 group-hover:text-[#1D2B4F]">{comp.name}</span>
                                 </div>
                                 <h3 className="font-bold text-lg text-slate-900 mb-2">Track MyAds vs {comp.name}</h3>
-                                <div className="mt-auto pt-4 text-blue-600 font-bold text-sm flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <div className="mt-auto pt-4 text-[#fe8023] font-bold text-sm flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
                                     View Comparison <ArrowRight size={16} />
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ const ComparePage = () => {
                                     <thead>
                                         <tr className="border-b-2 border-slate-100">
                                             <th className="text-left py-6 px-4 text-slate-500 font-medium w-1/2">Key Features</th>
-                                            <th className="text-center py-6 px-4 text-[#1D2B4F] font-bold text-xl w-1/4 bg-blue-50/50 rounded-t-xl">Track MyAds</th>
+                                            <th className="text-center py-6 px-4 text-[#1D2B4F] font-bold text-xl w-1/4 bg-orange-50/50 rounded-t-xl">Track MyAds</th>
                                             <th className="text-center py-6 px-4 text-slate-400 font-bold text-xl w-1/4">Others</th>
                                         </tr>
                                     </thead>
@@ -83,7 +83,7 @@ const ComparePage = () => {
                                         {features.map((feat, i) => (
                                             <tr key={i} className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors">
                                                 <td className="py-6 px-4 font-bold text-slate-700">{feat.name}</td>
-                                                <td className="py-6 px-4 text-center bg-blue-50/30">
+                                                <td className="py-6 px-4 text-center bg-orange-50/30">
                                                     {feat.us === true ? <CheckCircle className="inline text-green-500" /> : <span className="font-bold text-slate-900">{feat.us}</span>}
                                                 </td>
                                                 <td className="py-6 px-4 text-center">
@@ -107,7 +107,7 @@ const ComparePage = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
                         <div className="text-center">
-                            <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mx-auto mb-6 text-blue-600">
+                            <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mx-auto mb-6 text-[#fe8023]">
                                 <Headphones className="w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Better Support</h3>
@@ -138,7 +138,7 @@ const ComparePage = () => {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
 
                         <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to make the switch?</h2>
-                        <p className="text-xl text-blue-200 mb-10 max-w-2xl mx-auto">
+                        <p className="text-xl text-orange-200 mb-10 max-w-2xl mx-auto">
                             Join 850+ companies who moved to Track MyAds for better performance.
                         </p>
 

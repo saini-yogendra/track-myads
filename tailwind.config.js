@@ -7,8 +7,8 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#3A75FF', // Bright Blue
-                    dark: '#2563eb',
+                    DEFAULT: '#fe8023', // Updated Orange
+                    dark: '#e06b12',
                 },
                 secondary: {
                     DEFAULT: '#1C3352', // Dark Navy

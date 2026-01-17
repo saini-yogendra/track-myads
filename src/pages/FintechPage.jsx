@@ -67,7 +67,7 @@ const FintechPage = () => {
                                     <div className="text-xs font-bold text-slate-500">Daily Revenue</div>
                                     <div className="text-lg font-bold text-slate-900">$12,450.00</div>
                                 </div>
-                                <div className="absolute bottom-20 -left-10 bg-white p-4 rounded-xl shadow-lg z-20 animate-float hidden md:block border-l-4 border-blue-500">
+                                <div className="absolute bottom-20 -left-10 bg-white p-4 rounded-xl shadow-lg z-20 animate-float hidden md:block border-l-4 border-[#fe8023]">
                                     <div className="text-xs font-bold text-slate-500">Conversion Rate</div>
                                     <div className="text-lg font-bold text-slate-900">4.8%</div>
                                 </div>
@@ -101,8 +101,8 @@ const FintechPage = () => {
                         <div className="flex justify-center">
                             <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 max-w-md w-full relative">
                                 <div className="space-y-6">
-                                    <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-blue-50 transition-colors cursor-default group">
-                                        <div className="bg-blue-100 p-3 rounded-full group-hover:bg-blue-200 transition-colors"><Percent className="w-6 h-6 text-blue-600" /></div>
+                                    <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-orange-50 transition-colors cursor-default group">
+                                        <div className="bg-orange-100 p-3 rounded-full group-hover:bg-blue-200 transition-colors"><Percent className="w-6 h-6 text-[#fe8023]" /></div>
                                         <div>
                                             <h3 className="font-bold text-slate-900">Cost Per Sale (CPS)</h3>
                                             <p className="text-sm text-slate-500">Commission based on sales value.</p>
@@ -210,7 +210,7 @@ const FintechPage = () => {
                                     </div>
                                 </li>
                                 <li className="flex items-center gap-4">
-                                    <div className="bg-white p-2 rounded-lg shadow-sm"><Activity className="w-5 h-5 text-blue-500" /></div>
+                                    <div className="bg-white p-2 rounded-lg shadow-sm"><Activity className="w-5 h-5 text-[#fe8023]" /></div>
                                     <div>
                                         <h4 className="font-bold text-slate-900">CTIT Monitoring</h4>
                                         <p className="text-sm text-slate-500">Catch click injection with Click to Install Time analysis.</p>
@@ -239,22 +239,22 @@ const FintechPage = () => {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors">
-                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-600 mb-6">
+                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-orange-200 transition-colors">
+                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#fe8023] mb-6">
                                 <DollarSign className="w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Dynamic Payout Configuration</h3>
                             <p className="text-slate-600">Set payouts based on specific events, geographic regions, or user devices.</p>
                         </div>
-                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors">
-                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-600 mb-6">
+                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-orange-200 transition-colors">
+                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#fe8023] mb-6">
                                 <CreditCard className="w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Dedicated Affiliate Payout</h3>
                             <p className="text-slate-600">Customize payout terms for individual high-performing affiliates.</p>
                         </div>
-                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors">
-                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-600 mb-6">
+                        <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-orange-200 transition-colors">
+                            <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#fe8023] mb-6">
                                 <PieChart className="w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Commission Management</h3>
@@ -290,16 +290,16 @@ const FintechPage = () => {
 
                         <div className="relative z-10">
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Grow Your Fintech Business with Track MyAds</h2>
-                            <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+                            <p className="text-orange-100 text-lg mb-8 max-w-2xl mx-auto">
                                 Join hundreds of financial institutions and fintech startups scaling their user acquisition with confidence.
                             </p>
                             <Link to="/contact" className="inline-block bg-white text-[#0046af] hover:bg-slate-100 px-12 py-5 rounded-xl font-bold text-lg shadow-xl transition-all hover:scale-105 whitespace-nowrap">
                                 Get Started Now
                             </Link>
 
-                            <div className="flex flex-wrap justify-center gap-8 mt-10 text-blue-200 font-medium">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> SSL Encrypted</span>
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> 99.99% Uptime</span>
+                            <div className="flex flex-wrap justify-center gap-8 mt-10 text-orange-200 font-medium">
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> SSL Encrypted</span>
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> 99.99% Uptime</span>
                             </div>
                         </div>
                     </div>

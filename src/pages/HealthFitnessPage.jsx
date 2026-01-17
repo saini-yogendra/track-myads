@@ -148,7 +148,7 @@ const HealthFitnessPage = () => {
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="p-8 rounded-3xl bg-[#f8fafc] border border-slate-100 hover:shadow-lg transition-all text-center group">
                             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm group-hover:scale-110 transition-transform">
-                                <Globe className="w-8 h-8 text-blue-500" />
+                                <Globe className="w-8 h-8 text-[#fe8023]" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Geo Targeting</h3>
                             <p className="text-slate-600 text-sm">Target specific cities or regions where your fitness centers or products are available.</p>
@@ -183,23 +183,23 @@ const HealthFitnessPage = () => {
                         </p>
                     </div>
                     <div className="grid md:grid-cols-4 gap-8">
-                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-colors">
-                            <Layers className="w-10 h-10 text-blue-400 mb-4" />
+                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-[#fe8023] transition-colors">
+                            <Layers className="w-10 h-10 text-orange-400 mb-4" />
                             <h3 className="text-xl font-bold mb-2">Multiple Landing Pages</h3>
                             <p className="text-slate-400 text-sm">Test different product angles with rotation.</p>
                         </div>
-                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-colors">
-                            <Radio className="w-10 h-10 text-blue-400 mb-4" />
+                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-[#fe8023] transition-colors">
+                            <Radio className="w-10 h-10 text-orange-400 mb-4" />
                             <h3 className="text-xl font-bold mb-2">Prelanding</h3>
                             <p className="text-slate-400 text-sm">Warm up traffic with advertorials.</p>
                         </div>
-                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-colors">
-                            <MapPin className="w-10 h-10 text-blue-400 mb-4" />
+                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-[#fe8023] transition-colors">
+                            <MapPin className="w-10 h-10 text-orange-400 mb-4" />
                             <h3 className="text-xl font-bold mb-2">DeepLink</h3>
                             <p className="text-slate-400 text-sm">Direct users to specific product pages.</p>
                         </div>
-                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-colors">
-                            <UserPlus className="w-10 h-10 text-blue-400 mb-4" />
+                        <div className="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-[#fe8023] transition-colors">
+                            <UserPlus className="w-10 h-10 text-orange-400 mb-4" />
                             <h3 className="text-xl font-bold mb-2">Referral Program</h3>
                             <p className="text-slate-400 text-sm">Let affiliates recruit others.</p>
                         </div>
@@ -288,8 +288,8 @@ const HealthFitnessPage = () => {
 
                         <div className="relative z-10 text-center md:text-left">
                             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">Try with 10 days free trial</h2>
-                            <div className="flex flex-wrap gap-6 text-blue-200 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-400" size={20} /> No credit card required</span>
+                            <div className="flex flex-wrap gap-6 text-orange-200 font-medium justify-center md:justify-start">
+                                <span className="flex items-center gap-2"><CheckCircle className="text-orange-400" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

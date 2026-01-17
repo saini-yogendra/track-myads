@@ -41,7 +41,7 @@ const NewsroomPage = () => {
             {/* Hero Section */}
             <section className="pt-32 pb-20 lg:pt-40 lg:pb-28 text-center bg-slate-50">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-xs font-bold mb-6 shadow-sm">
+                    <div className="inline-block bg-orange-100 text-[#c25e1a] px-4 py-2 rounded-full text-xs font-bold mb-6 shadow-sm">
                         News & Updates
                     </div>
 
@@ -70,17 +70,17 @@ const NewsroomPage = () => {
                             >
                                 <div className="flex-grow">
                                     <div className="flex items-center gap-3 mb-2 text-xs font-bold uppercase tracking-wider">
-                                        <span className="text-blue-600 bg-blue-50 px-2 py-1 rounded">{item.category}</span>
+                                        <span className="text-[#fe8023] bg-orange-50 px-2 py-1 rounded">{item.category}</span>
                                         <span className="text-slate-400 flex items-center gap-1"><Calendar size={12} /> {item.date}</span>
                                     </div>
-                                    <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
+                                    <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-2 group-hover:text-[#c25e1a] transition-colors">
                                         <a href={item.link}>{item.title}</a>
                                     </h3>
                                     <p className="text-slate-500 text-sm flex items-center gap-2">
                                         Source: <span className="font-bold text-slate-700">{item.source}</span>
                                     </p>
                                 </div>
-                                <a href={item.link} className="flex-shrink-0 w-12 h-12 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                <a href={item.link} className="flex-shrink-0 w-12 h-12 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-[#fe8023] group-hover:text-white transition-all">
                                     <ExternalLink size={20} />
                                 </a>
                             </motion.div>

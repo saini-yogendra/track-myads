@@ -14,10 +14,10 @@ import {
 const Features = () => {
     const features = [
         {
-            icon: <Globe className="w-6 h-6 text-blue-600" />,
+            icon: <Globe className="w-6 h-6 text-[#fe8023]" />,
             title: "Seamless Campaign Migration",
             description: "Move your campaigns effortlessly from other platforms using fast, one-click migration tools.",
-            bg: "bg-blue-50"
+            bg: "bg-orange-50"
         },
         {
             icon: <Zap className="w-6 h-6 text-yellow-600" />,
@@ -66,7 +66,7 @@ const Features = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
-                        <div key={index} className="bg-white rounded-2xl p-8 border border-slate-100 hover:border-blue-100 hover:shadow-card transition-all duration-300 group hover:-translate-y-1">
+                        <div key={index} className="bg-white rounded-2xl p-8 border border-slate-100 hover:border-orange-100 hover:shadow-card transition-all duration-300 group hover:-translate-y-1">
                             <div className={`w-14 h-14 rounded-xl ${feature.bg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                                 {feature.icon}
                             </div>

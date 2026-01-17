@@ -29,7 +29,7 @@ const ContactSection = () => {
                     <div className="grid lg:grid-cols-3 gap-8 mb-20">
                         {/* Sales */}
                         <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-lg hover:-translate-y-2 transition-transform duration-300">
-                            <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mb-6">
+                            <div className="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center text-[#fe8023] mb-6">
                                 <Mail className="w-7 h-7" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-2">Sales Team</h3>
@@ -122,7 +122,7 @@ const ContactSection = () => {
                                             </div>
                                             <div>
                                                 <h4 className="font-bold text-lg mb-1">Visit Us</h4>
-                                                <p className="text-blue-100 leading-relaxed">
+                                                <p className="text-orange-100 leading-relaxed">
                                                     PARK SERENE<br />
                                                     Gurgaon, Sector 37D<br />
                                                     Haryana-India
@@ -136,7 +136,7 @@ const ContactSection = () => {
                                             </div>
                                             <div>
                                                 <h4 className="font-bold text-lg mb-1">Office Hours</h4>
-                                                <p className="text-blue-100 leading-relaxed">
+                                                <p className="text-orange-100 leading-relaxed">
                                                     Monday - Friday<br />
                                                     9:00 AM - 6:00 PM IST
                                                 </p>

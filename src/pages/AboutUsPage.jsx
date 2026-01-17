@@ -118,7 +118,7 @@ const AboutUsPage = () => {
                             <div key={index} className="relative pl-8 md:pl-12">
                                 <div className="absolute -left-[11px] md:-left-[11px] top-1 w-5 h-5 bg-[#1D2B4F] rounded-full border-4 border-white shadow-md"></div>
                                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
-                                    <span className="text-blue-600 font-bold text-xl block mb-2">{item.year}</span>
+                                    <span className="text-[#fe8023] font-bold text-xl block mb-2">{item.year}</span>
                                     <h3 className="text-xl font-bold text-slate-900 mb-2">{item.title}</h3>
                                     <p className="text-slate-600">{item.desc}</p>
                                 </div>
@@ -134,27 +134,27 @@ const AboutUsPage = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">9+</div>
-                            <div className="text-sm text-blue-200">Years Experience</div>
+                            <div className="text-sm text-orange-200">Years Experience</div>
                         </div>
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">190+</div>
-                            <div className="text-sm text-blue-200">Partners</div>
+                            <div className="text-sm text-orange-200">Partners</div>
                         </div>
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">850+</div>
-                            <div className="text-sm text-blue-200">Trusted Companies</div>
+                            <div className="text-sm text-orange-200">Trusted Companies</div>
                         </div>
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">113</div>
-                            <div className="text-sm text-blue-200">Awards Won</div>
+                            <div className="text-sm text-orange-200">Awards Won</div>
                         </div>
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">40+</div>
-                            <div className="text-sm text-blue-200">Countries</div>
+                            <div className="text-sm text-orange-200">Countries</div>
                         </div>
                         <div className="p-4">
                             <div className="text-4xl font-bold mb-2 text-[#F8D568]">20k+</div>
-                            <div className="text-sm text-blue-200">LinkedIn Followers</div>
+                            <div className="text-sm text-orange-200">LinkedIn Followers</div>
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@ const AboutUsPage = () => {
                         <div className="relative z-10 text-center md:text-left">
                             <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-display">Try with 10 days free trial</h2>
                             <div className="flex flex-wrap gap-6 text-slate-600 font-medium justify-center md:justify-start">
-                                <span className="flex items-center gap-2"><CheckCircle className="text-blue-500" size={20} /> No credit card required</span>
+                                <span className="flex items-center gap-2"><CheckCircle className="text-[#fe8023]" size={20} /> No credit card required</span>
                             </div>
                         </div>
 

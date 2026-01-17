@@ -72,9 +72,9 @@ const MobileVASPage = () => {
                                         <div className="text-xs font-bold text-slate-800">Operator Targeting</div>
                                     </div>
                                 </div>
-                                <div className="absolute bottom-20 -right-5 bg-white p-3 rounded-lg shadow-lg z-20 animate-float hidden md:block border-l-4 border-blue-500">
+                                <div className="absolute bottom-20 -right-5 bg-white p-3 rounded-lg shadow-lg z-20 animate-float hidden md:block border-l-4 border-[#fe8023]">
                                     <div className="flex items-center gap-2">
-                                        <Smartphone className="w-4 h-4 text-blue-500" />
+                                        <Smartphone className="w-4 h-4 text-[#fe8023]" />
                                         <div className="text-xs font-bold text-slate-800">Direct Carrier Billing</div>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@ const MobileVASPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-[#f8fafc] p-8 rounded-2xl hover:bg-white hover:shadow-xl transition-all border border-slate-100 group">
-                            <Radio className="w-12 h-12 text-blue-500 mb-6 group-hover:scale-110 transition-transform" />
+                            <Radio className="w-12 h-12 text-[#fe8023] mb-6 group-hover:scale-110 transition-transform" />
                             <h3 className="text-xl font-bold text-slate-900 mb-3">Operator Targeting</h3>
                             <p className="text-slate-600">Filter traffic by specific Mobile Network Operators (MNOs) / ISPs. Essential for carrier billing offers.</p>
                         </div>
@@ -200,7 +200,7 @@ const MobileVASPage = () => {
                             </p>
                             <div className="space-y-4">
                                 <div className="flex items-start gap-4">
-                                    <div className="bg-blue-100 p-2 rounded-lg mt-1"><Target className="w-5 h-5 text-blue-600" /></div>
+                                    <div className="bg-orange-100 p-2 rounded-lg mt-1"><Target className="w-5 h-5 text-[#fe8023]" /></div>
                                     <div>
                                         <h4 className="font-bold text-slate-900">Click & Conversion Capping</h4>
                                         <p className="text-sm text-slate-500">Set limits on total clicks or conversions per hour/day.</p>

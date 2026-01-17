@@ -13,7 +13,7 @@ const EventsPage = () => {
             <section className="pt-32 pb-20 lg:pt-40 lg:pb-28 text-center bg-[#1D2B4F] text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl lg:text-6xl font-bold mb-6 font-display">Events & Conferences</h1>
-                    <p className="text-lg text-blue-200 max-w-2xl mx-auto">Meet the Track MyAds team at these global events.</p>
+                    <p className="text-lg text-orange-200 max-w-2xl mx-auto">Meet the Track MyAds team at these global events.</p>
                 </div>
             </section>
 

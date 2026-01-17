@@ -27,9 +27,9 @@ const AbusePage = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-3xl mx-auto bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-100">
 
-                        <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8 flex items-start gap-4">
-                            <ShieldAlert className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
-                            <div className="text-sm text-blue-800">
+                        <div className="bg-orange-50 border border-orange-100 rounded-xl p-5 mb-8 flex items-start gap-4">
+                            <ShieldAlert className="w-6 h-6 text-[#fe8023] flex-shrink-0 mt-1" />
+                            <div className="text-sm text-[#9a4b14]">
                                 <p className="font-bold mb-1">Before you report:</p>
                                 <p>Please ensure that the violation is related to a URL or service hosted by Track MyAds (Track MyAds). We actively monitor and disable accounts that violate our Terms of Service.</p>
                             </div>
@@ -68,7 +68,7 @@ const AbusePage = () => {
                                 <textarea rows="4" className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition-all" placeholder="Please describe the issue..."></textarea>
                             </div>
 
-                            <div className="border-2 border-dashed border-slate-200 rounded-xl p-8 text-center hover:border-blue-400 hover:bg-blue-50 transition-all cursor-pointer">
+                            <div className="border-2 border-dashed border-slate-200 rounded-xl p-8 text-center hover:border-blue-400 hover:bg-orange-50 transition-all cursor-pointer">
                                 <Upload className="mx-auto w-8 h-8 text-slate-400 mb-2" />
                                 <p className="text-sm text-slate-500 font-medium">Attach Proof (Screenshots, Logs)</p>
                             </div>

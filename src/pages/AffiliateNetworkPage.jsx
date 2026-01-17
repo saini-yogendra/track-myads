@@ -43,7 +43,7 @@ const AffiliateNetworkPage = () => {
         postback: {
             title: "Postback Integration",
             desc: "Seamlessly integrate with 3rd party platforms using our advanced S2S postback system. Ensure accurate data transmission for every conversion.",
-            icon: <Globe className="w-12 h-12 text-blue-600" />
+            icon: <Globe className="w-12 h-12 text-[#fe8023]" />
         },
         fraud: {
             title: "Fraud Prevention",
@@ -128,7 +128,7 @@ const AffiliateNetworkPage = () => {
                             </div>
                             <div className="absolute bottom-10 right-0 bg-white p-4 rounded-xl shadow-lg z-20 animate-float-delayed hidden md:block">
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-blue-100 p-2 rounded-lg"><Share2 className="text-blue-600 w-5 h-5" /></div>
+                                    <div className="bg-orange-100 p-2 rounded-lg"><Share2 className="text-[#fe8023] w-5 h-5" /></div>
                                     <div>
                                         <div className="text-xs text-slate-500 font-bold">Connectivity</div>
                                         <div className="text-sm font-bold">S2S Integration</div>
@@ -147,7 +147,7 @@ const AffiliateNetworkPage = () => {
                         <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-display">
                             Boost Your Affiliate Campaigns with Affiliate Network Software
                         </h2>
-                        <p className="text-blue-100 max-w-2xl mx-auto text-lg opacity-80">
+                        <p className="text-orange-100 max-w-2xl mx-auto text-lg opacity-80">
                             Equip your network with the tools needed to scale efficiently and maximize revenue.
                         </p>
                     </div>
@@ -175,7 +175,7 @@ const AffiliateNetworkPage = () => {
                                     key={key}
                                     onClick={() => setActiveTab(key)}
                                     className={`w-full text-left px-6 py-4 rounded-xl transition-all font-bold flex items-center justify-between ${activeTab === key
-                                        ? 'bg-blue-50 text-blue-600 shadow-sm'
+                                        ? 'bg-orange-50 text-[#fe8023] shadow-sm'
                                         : 'text-slate-600 hover:bg-slate-50'
                                         }`}
                                 >
@@ -202,7 +202,7 @@ const AffiliateNetworkPage = () => {
                                 <p className="text-lg text-slate-600 leading-relaxed mb-8">
                                     {tabContent[activeTab].desc}
                                 </p>
-                                <Link to="/signup" className="text-blue-600 font-bold hover:underline flex items-center gap-2">
+                                <Link to="/signup" className="text-[#fe8023] font-bold hover:underline flex items-center gap-2">
                                     Learn more <ArrowRight size={20} />
                                 </Link>
                             </motion.div>

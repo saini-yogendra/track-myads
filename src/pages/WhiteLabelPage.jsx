@@ -143,7 +143,7 @@ const WhiteLabelPage = () => {
                         <div className="bg-slate-50 rounded-3xl p-8 lg:p-12">
                             <div className="grid sm:grid-cols-2 gap-8">
                                 <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <Monitor className="w-10 h-10 text-blue-600 mb-4" />
+                                    <Monitor className="w-10 h-10 text-[#fe8023] mb-4" />
                                     <h3 className="font-bold text-slate-900 mb-2">Optimised for Any Device</h3>
                                     <p className="text-sm text-slate-600">Responsive design that looks great on desktop, tablet, and mobile.</p>
                                 </div>
@@ -207,8 +207,8 @@ const WhiteLabelPage = () => {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                        <div className="bg-white rounded-2xl p-8 shadow-md border-t-4 border-blue-500">
-                            <Server className="w-12 h-12 text-blue-500 mb-6" />
+                        <div className="bg-white rounded-2xl p-8 shadow-md border-t-4 border-[#fe8023]">
+                            <Server className="w-12 h-12 text-[#fe8023] mb-6" />
                             <h3 className="text-xl font-bold text-slate-900 mb-4">Custom Tracking Domain</h3>
                             <p className="text-slate-600">Detailed setup for tracking links to use your own domain, improving trust and deliverability.</p>
                         </div>

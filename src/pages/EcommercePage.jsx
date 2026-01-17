@@ -65,7 +65,7 @@ const EcommercePage = () => {
                                     <TrendingUp className="w-6 h-6 text-green-500" />
                                 </div>
                                 <div className="absolute top-1/2 -right-5 bg-white p-3 rounded-full shadow-lg z-20 animate-float hidden md:block">
-                                    <Truck className="w-6 h-6 text-blue-500" />
+                                    <Truck className="w-6 h-6 text-[#fe8023]" />
                                 </div>
 
                                 <img
@@ -230,7 +230,7 @@ const EcommercePage = () => {
                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                         {/* Placeholders for logos, using stylized text for now to avoid broken images */}
                         {['Wix', 'PrestaShop', 'Miva', 'SendOwl', 'X-Cart', 'Samcart', 'Zoey', 'Volusion', 'Sellfy', 'Ecwid', 'Dukaan', 'Shopmatic'].map((name, i) => (
-                            <div key={i} className="flex items-center justify-center font-bold text-xl text-slate-400 border border-slate-100 p-4 rounded-xl hover:border-blue-200 hover:text-blue-600 hover:shadow-sm transition-all cursor-default">
+                            <div key={i} className="flex items-center justify-center font-bold text-xl text-slate-400 border border-slate-100 p-4 rounded-xl hover:border-orange-200 hover:text-[#fe8023] hover:shadow-sm transition-all cursor-default">
                                 {name}
                             </div>
                         ))}
@@ -239,7 +239,7 @@ const EcommercePage = () => {
             </section>
 
             {/* eBook Lead Magnet */}
-            <section className="py-20 bg-blue-50">
+            <section className="py-20 bg-orange-50">
                 <div className="container mx-auto px-4">
                     <div className="bg-white rounded-[2rem] shadow-xl p-8 md:p-12 max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
                         <div className="w-full md:w-1/3">
