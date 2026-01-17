@@ -30,8 +30,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-lg text-slate-900">Call Us</h3>
-                                    <p className="text-slate-600">+1 (888) 123-4567</p>
-                                    <p className="text-sm text-slate-500">Mon-Fri from 9am to 6pm EST</p>
+                                    <p className="text-slate-600">+91 9050583365</p>
+                                    <p className="text-sm text-slate-500">Mon-Fri from 9am to 6pm IST</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -40,7 +40,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-lg text-slate-900">Visit Us</h3>
-                                    <p className="text-slate-600">123 Tech Park Ave, Suite 400<br />San Francisco, CA 94107</p>
+                                    <p className="text-slate-600">PARK SERENE<br />Gurgaon, Sector 37D<br />Haryana-India</p>
                                 </div>
                             </div>
                         </div>

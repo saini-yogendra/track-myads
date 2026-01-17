@@ -55,15 +55,15 @@ const Footer = () => {
             </div>
 
             {/* Main Footer */}
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-6">
 
                     {/* Brand Column */}
-                    <div className="col-span-2 md:col-span-3 lg:col-span-1">
-                        <Link to="/" className="inline-block mb-6">
+                    <div className="col-span-2 md:col-span-3 lg:col-span-3">
+                        <Link to="/" className="inline-block mb-3">
                             <div className="text-2xl font-bold">Track MyAds</div>
                         </Link>
-                        <p className="text-slate-400 text-sm mb-6 leading-relaxed">
+                        <p className="text-slate-400 text-sm mb-2 leading-relaxed">
                             performance marketing platform for affiliate networks and advertisers.
                         </p>
 
@@ -89,11 +89,11 @@ const Footer = () => {
 
                     {/* Link Columns */}
                     {Object.entries(footerLinks).map(([category, links]) => (
-                        <div key={category}>
-                            <h3 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
+                        <div key={category} className="col-span-2 md:col-span-3 lg:col-span-3">
+                            <h3 className="font-bold text-white mb-6 pt-1 text-sm uppercase tracking-wider">
                                 {category}
                             </h3>
-                            <ul className="space-y-3">
+                            <ul className="flex flex-wrap gap-6">
                                 {links.map((link) => (
                                     <li key={link.name}>
                                         <Link
@@ -129,7 +129,7 @@ const Footer = () => {
                 </div> */}
 
                 {/* Bottom Bar */}
-                <div className="border-t border-slate-800 pt-8">
+                <div className="border-t border-slate-800 pt-4">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <div className="text-slate-400 text-sm">
                             © 2025 Track MyAds. All rights reserved.
@@ -141,17 +141,17 @@ const Footer = () => {
                             <Link to="/legal/terms" className="text-slate-400 hover:text-white transition-colors">
                                 Terms of Service
                             </Link>
-                            <Link to="/legal/cookie-policy" className="text-slate-400 hover:text-white transition-colors">
+                            {/* <Link to="/legal/cookie-policy" className="text-slate-400 hover:text-white transition-colors">
                                 Cookie Policy
-                            </Link>
-                            <Link to="/legal/security" className="text-slate-400 hover:text-white transition-colors">
+                            </Link> */}
+                            {/* <Link to="/legal/security" className="text-slate-400 hover:text-white transition-colors">
                                 Security
-                            </Link>
+                            </Link> */}
                         </div>
-                        <div className="flex gap-4 text-sm text-slate-400">
+                        {/* <div className="flex gap-4 text-sm text-slate-400">
                             <button className="hover:text-white transition-colors">English</button>
                             <button className="hover:text-white transition-colors">Español</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

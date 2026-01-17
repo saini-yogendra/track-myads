@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Mail, Phone, MapPin, MessageSquare, Clock, Globe } from 'lucide-react';
+import { ArrowRight, Mail, Phone, MapPin, MessageSquare, Clock, Globe, Building2 } from 'lucide-react';
 
 const ContactSection = () => {
     return (
@@ -53,8 +53,8 @@ const ContactSection = () => {
                                 <Phone className="w-7 h-7" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us</h3>
-                            <p className="text-slate-500 mb-4">Mon-Fri from 9am to 6pm EST.</p>
-                            <a href="tel:+18881234567" className="text-lg font-bold text-[#1D2B4F] hover:underline">+1 (888) 123-4567</a>
+                            <p className="text-slate-500 mb-4">Mon-Fri from 9am to 6pm IST.</p>
+                            <a href="tel:+18881234567" className="text-lg font-bold text-[#1D2B4F] hover:underline">+91 9050583365</a>
                         </div>
                     </div>
 
@@ -98,20 +98,34 @@ const ContactSection = () => {
                                 <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl -mr-32 -mt-32 pointer-events-none"></div>
                                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -ml-20 -mb-20 pointer-events-none"></div>
 
+                                {/* Google Map */}
+                                <div className="relative z-10 w-full h-64 rounded-2xl overflow-hidden mb-8 border-4 border-white/10 shadow-lg">
+                                    <iframe
+                                        src="https://maps.google.com/maps?q=PARK%20SERENE,%20Sector%2037D,%20Gurgaon&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                        width="100%"
+                                        height="100%"
+                                        style={{ border: 0 }}
+                                        allowFullScreen=""
+                                        loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                        title="Office Location"
+                                    ></iframe>
+                                </div>
+
                                 <div className="relative z-10">
                                     <h3 className="text-2xl font-bold mb-8 font-display">Our Global Headquarters</h3>
 
                                     <div className="space-y-8">
                                         <div className="flex items-start gap-4">
                                             <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
-                                                <MapPin className="w-6 h-6 text-[#F8D568]" />
+                                                <Building2 className="w-6 h-6 text-[#F8D568]" />
                                             </div>
                                             <div>
                                                 <h4 className="font-bold text-lg mb-1">Visit Us</h4>
                                                 <p className="text-blue-100 leading-relaxed">
-                                                    123 Tech Park Ave, Suite 400<br />
-                                                    San Francisco, CA 94107<br />
-                                                    United States
+                                                    PARK SERENE<br />
+                                                    Gurgaon, Sector 37D<br />
+                                                    Haryana-India
                                                 </p>
                                             </div>
                                         </div>
@@ -124,22 +138,10 @@ const ContactSection = () => {
                                                 <h4 className="font-bold text-lg mb-1">Office Hours</h4>
                                                 <p className="text-blue-100 leading-relaxed">
                                                     Monday - Friday<br />
-                                                    9:00 AM - 6:00 PM EST
+                                                    9:00 AM - 6:00 PM IST
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div className="relative z-10 mt-12">
-                                    <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
-                                        <div className="flex items-center gap-3 mb-3">
-                                            <Globe className="w-5 h-5 text-[#F8D568]" />
-                                            <span className="font-bold">Global Presence</span>
-                                        </div>
-                                        <p className="text-sm text-blue-100">
-                                            We have support teams located in 5 different time zones to serve our 850+ global clients effectively.
-                                        </p>
                                     </div>
                                 </div>
                             </div>

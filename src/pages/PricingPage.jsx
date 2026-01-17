@@ -87,13 +87,7 @@ const PricingPage = () => {
                         Pricing & Plans
                     </h1>
 
-                    {/* Trust Badges */}
-                    <div className="flex flex-wrap gap-4 justify-center opacity-70 grayscale mb-12">
-                        <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">Capterra <br /><span className="font-normal text-[10px]">User Reviews</span></div>
-                        <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">G2 <br /><span className="font-normal text-[10px]">Best Support</span></div>
-                        <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">Crozdesk <br /><span className="font-normal text-[10px]">Quality Choice</span></div>
-                        <div className="border border-slate-200 px-3 py-1 rounded text-xs font-bold text-slate-600">OfferVault <br /><span className="font-normal text-[10px]">Top Platform</span></div>
-                    </div>
+
 
 
                 </div>
@@ -151,13 +145,6 @@ const PricingPage = () => {
                                 <h3 className="font-bold text-slate-900">24/7 Support</h3>
                                 <p className="text-sm text-slate-600 mt-1">Our team is always available to help everyday.</p>
                             </div>
-                        </div>
-                        <div className="flex gap-4">
-                            <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Shield className="w-6 h-6 text-red-600" /></div>
-                            {/* <div>
-                                <h3 className="font-bold text-slate-900">Fraud Detection (Basic)</h3>
-                                <p className="text-sm text-slate-600 mt-1">Stay safe with our built-in basic security tools.</p>
-                            </div> */}
                         </div>
                         <div className="flex gap-4">
                             <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Globe className="w-6 h-6 text-green-600" /></div>

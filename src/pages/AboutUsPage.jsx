@@ -20,7 +20,7 @@ const AboutUsPage = () => {
                             className="text-center lg:text-left"
                         >
                             <div className="inline-block bg-[#F8D568] text-black px-4 py-2 rounded-full text-xs font-bold mb-6 shadow-sm">
-                                #Award-Winning Platform
+                                #Best Tracking Platform
                             </div>
 
                             <h1 className="text-4xl lg:text-[56px] font-bold text-slate-900 leading-tight mb-6 font-display">
@@ -73,9 +73,9 @@ const AboutUsPage = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="inline-block bg-[#FFD166] text-black px-4 py-2 rounded-full text-xs font-bold mb-6">
+                            {/* <div className="inline-block bg-[#FFD166] text-black px-4 py-2 rounded-full text-xs font-bold mb-6">
                                 #Towering Business Performance
-                            </div>
+                            </div> */}
                             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6 font-display">
                                 Our Mission
                             </h2>

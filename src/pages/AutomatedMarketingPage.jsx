@@ -66,13 +66,13 @@ const AutomatedMarketingPage = () => {
                             <div className="flex gap-4 items-center">
                                 {/* Placeholder reviews */}
                                 <div className="text-sm font-bold text-slate-400 uppercase tracking-wider">Trusted by:</div>
-                                <div className="flex gap-2 text-slate-400 font-bold text-lg">
+                                {/* <div className="flex gap-2 text-slate-400 font-bold text-lg">
                                     <span>G2</span>
                                     <span>•</span>
                                     <span>Capterra</span>
                                     <span>•</span>
                                     <span>Crozdesk</span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 

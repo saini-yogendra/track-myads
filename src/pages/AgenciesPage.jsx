@@ -42,11 +42,11 @@ const AgenciesPage = () => {
 
                             {/* Social Proof Rows */}
                             <div className="space-y-6">
-                                <div className="flex flex-wrap gap-4 justify-center lg:justify-start opacity-60 grayscale">
+                                {/* <div className="flex flex-wrap gap-4 justify-center lg:justify-start opacity-60 grayscale">
                                     <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">Capterra</div>
                                     <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">G2 Crowd</div>
                                     <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">Crozdesk</div>
-                                </div>
+                                </div> */}
                                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                                     <div className="bg-slate-50 px-3 py-2 rounded text-slate-400 font-bold text-sm">Yahoo! Finance</div>
                                     <div className="bg-slate-50 px-3 py-2 rounded text-slate-400 font-bold text-sm">Businesswire</div>

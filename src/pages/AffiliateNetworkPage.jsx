@@ -97,12 +97,12 @@ const AffiliateNetworkPage = () => {
                             </div>
 
                             {/* Trust Badges */}
-                            <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start opacity-60 grayscale">
+                            {/* <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start opacity-60 grayscale">
                                 <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">Capterra</div>
                                 <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">G2 Crowd</div>
                                 <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">Crozdesk</div>
                                 <div className="border border-slate-300 rounded px-2 py-1 text-xs font-bold">OfferVault</div>
-                            </div>
+                            </div> */}
                         </motion.div>
 
                         <motion.div
